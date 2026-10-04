@@ -1,0 +1,999 @@
+college_name,stream,branch,state,city,college_type,cutoff_marks,annual_fees,rating
+IIT Bombay,Engineering,CSE,Maharashtra,Mumbai,Government,99.0,250000.0,4.9
+IIT Delhi,Engineering,CSE,Delhi,Delhi,Government,99.0,250000.0,4.9
+IIT Madras,Engineering,CSE,Tamil Nadu,Chennai,Government,98.0,250000.0,4.9
+IIT Kanpur,Engineering,CSE,Uttar Pradesh,Kanpur,Government,98.0,250000.0,4.8
+IIT Kharagpur,Engineering,CSE,West Bengal,Kharagpur,Government,97.0,250000.0,4.8
+NIT Trichy,Engineering,CSE,Tamil Nadu,Trichy,Government,87.0,150000.0,4.6
+NIT Surathkal,Engineering,CSE,Karnataka,Mangalore,Government,86.0,150000.0,4.5
+NIT Warangal,Engineering,CSE,Telangana,Warangal,Government,85.0,150000.0,4.5
+NIT Calicut,Engineering,CSE,Kerala,Kozhikode,Government,84.0,150000.0,4.5
+NIT Rourkela,Engineering,CSE,Odisha,Rourkela,Government,83.0,150000.0,4.4
+BITS Pilani,Engineering,CSE,Rajasthan,Pilani,Private,85.0,550000.0,4.7
+VIT Vellore,Engineering,CSE,Tamil Nadu,Vellore,Private,80.0,200000.0,4.4
+Manipal Institute of Technology,Engineering,CSE,Karnataka,Manipal,Private,75.0,280000.0,4.3
+SRM Institute of Science and Technology,Engineering,CSE,Tamil Nadu,Chennai,Private,70.0,200000.0,4.2
+Amity University Noida,Engineering,CSE,Uttar Pradesh,Noida,Private,65.0,350000.0,4.0
+IIT Bombay,Engineering,ECE,Maharashtra,Mumbai,Government,98.0,250000.0,4.9
+IIT Delhi,Engineering,ECE,Delhi,Delhi,Government,97.0,250000.0,4.8
+NIT Trichy,Engineering,ECE,Tamil Nadu,Trichy,Government,84.0,150000.0,4.5
+NIT Warangal,Engineering,ECE,Telangana,Warangal,Government,82.0,150000.0,4.4
+BITS Pilani,Engineering,ECE,Rajasthan,Pilani,Private,82.0,550000.0,4.6
+IIT Bombay,Engineering,Mechanical,Maharashtra,Mumbai,Government,96.0,250000.0,4.8
+IIT Delhi,Engineering,Mechanical,Delhi,Delhi,Government,95.0,250000.0,4.8
+NIT Trichy,Engineering,Mechanical,Tamil Nadu,Trichy,Government,80.0,150000.0,4.4
+AIIMS New Delhi,Medical,MBBS,Delhi,Delhi,Government,99.0,1500.0,4.9
+AIIMS Jodhpur,Medical,MBBS,Rajasthan,Jodhpur,Government,97.0,1500.0,4.7
+AIIMS Bhopal,Medical,MBBS,Madhya Pradesh,Bhopal,Government,96.0,1500.0,4.7
+JIPMER Puducherry,Medical,MBBS,Puducherry,Puducherry,Government,95.0,500.0,4.8
+Maulana Azad Medical College,Medical,MBBS,Delhi,Delhi,Government,94.0,50000.0,4.7
+Grant Medical College,Medical,MBBS,Maharashtra,Mumbai,Government,92.0,50000.0,4.6
+Kasturba Medical College,Medical,MBBS,Karnataka,Manipal,Private,88.0,1200000.0,4.5
+Sri Ramachandra Institute,Medical,MBBS,Tamil Nadu,Chennai,Private,85.0,900000.0,4.4
+Amrita School of Medicine,Medical,MBBS,Kerala,Kochi,Private,83.0,800000.0,4.3
+St. John's Medical College,Medical,MBBS,Karnataka,Bangalore,Private,80.0,750000.0,4.3
+Lady Hardinge Medical College,Medical,MBBS,Delhi,Delhi,Government,93.0,50000.0,4.6
+Bangalore Medical College,Medical,MBBS,Karnataka,Bangalore,Government,88.0,50000.0,4.4
+Stanley Medical College,Medical,MBBS,Tamil Nadu,Chennai,Government,85.0,50000.0,4.3
+Miranda House,Arts,BA English,Delhi,Delhi,Government,96.0,15000.0,4.8
+Lady Shri Ram College,Arts,BA English,Delhi,Delhi,Government,94.0,15000.0,4.7
+Presidency College,Arts,BA History,West Bengal,Kolkata,Government,88.0,5000.0,4.6
+Hindu College,Arts,BA Philosophy,Delhi,Delhi,Government,92.0,15000.0,4.6
+Fergusson College,Arts,BA Sociology,Maharashtra,Pune,Government,82.0,20000.0,4.4
+Loyola College,Arts,BA Economics,Tamil Nadu,Chennai,Private,80.0,45000.0,4.5
+St. Xavier's College,Arts,BA Psychology,Maharashtra,Mumbai,Private,85.0,60000.0,4.5
+Christ University,Arts,BA Journalism,Karnataka,Bangalore,Private,75.0,120000.0,4.3
+Symbiosis College of Arts,Arts,BA Mass Media,Maharashtra,Pune,Private,70.0,150000.0,4.2
+Hansraj College,Arts,BA Political Science,Delhi,Delhi,Government,90.0,15000.0,4.5
+Shri Ram College of Commerce,Commerce,BCom,Delhi,Delhi,Government,97.0,15000.0,4.8
+Hindu College,Commerce,BCom,Delhi,Delhi,Government,94.0,15000.0,4.7
+Loyola College,Commerce,BCom,Tamil Nadu,Chennai,Private,85.0,50000.0,4.6
+Christ University,Commerce,BBA,Karnataka,Bangalore,Private,80.0,140000.0,4.5
+Symbiosis Centre for Management,Commerce,BBA,Maharashtra,Pune,Private,78.0,200000.0,4.4
+NMIMS Mumbai,Commerce,BBA,Maharashtra,Mumbai,Private,82.0,350000.0,4.5
+St. Xavier's College Kolkata,Commerce,BCom,West Bengal,Kolkata,Private,80.0,60000.0,4.4
+Mithibai College,Commerce,BCom,Maharashtra,Mumbai,Government,85.0,20000.0,4.3
+Jai Hind College,Commerce,BCom,Maharashtra,Mumbai,Private,78.0,40000.0,4.2
+Delhi College of Arts and Commerce,Commerce,BCom,Delhi,Delhi,Government,88.0,15000.0,4.4
+IISc Bangalore,Science,BSc Research,Karnataka,Bangalore,Government,99.0,35000.0,4.9
+St. Stephen's College,Science,BSc Physics,Delhi,Delhi,Government,95.0,15000.0,4.8
+Presidency College,Science,BSc Chemistry,West Bengal,Kolkata,Government,88.0,5000.0,4.6
+Fergusson College,Science,BSc Biology,Maharashtra,Pune,Government,82.0,20000.0,4.4
+Loyola College,Science,BSc Maths,Tamil Nadu,Chennai,Private,80.0,45000.0,4.5
+Christ University,Science,BSc Biotechnology,Karnataka,Bangalore,Private,75.0,120000.0,4.3
+IISER Pune,Science,BS Research,Maharashtra,Pune,Government,95.0,25000.0,4.8
+IISER Kolkata,Science,BS Research,West Bengal,Kolkata,Government,94.0,25000.0,4.8
+Nizam College,Science,BSc Physics,Telangana,Hyderabad,Government,78.0,10000.0,4.2
+National Law School of India,Law,LLB,Karnataka,Bangalore,Government,95.0,90000.0,4.9
+NALSAR University of Law,Law,LLB,Telangana,Hyderabad,Government,92.0,80000.0,4.7
+NLU Delhi,Law,LLB,Delhi,Delhi,Government,93.0,90000.0,4.8
+Faculty of Law DU,Law,LLB,Delhi,Delhi,Government,85.0,10000.0,4.5
+Symbiosis Law School,Law,LLB,Maharashtra,Pune,Private,80.0,200000.0,4.4
+IIT Bombay,Design,B.Des,Maharashtra,Mumbai,Government,90.0,200000.0,4.8
+NID Ahmedabad,Design,B.Des,Gujarat,Ahmedabad,Government,88.0,250000.0,4.9
+NIFT Delhi,Design,B.Des Fashion,Delhi,Delhi,Government,85.0,300000.0,4.7
+Srishti School of Art,Design,B.Des,Karnataka,Bangalore,Private,75.0,350000.0,4.4
+Pearl Academy,Design,B.Des Fashion,Delhi,Delhi,Private,70.0,400000.0,4.2
+C,,,,,,,,
+,,,,,,,,
+,Engineering,IT,Maharashtra,Mumbai,Government,98.5,85000.0,4.7
+SPIT Mumbai,Engineering,Computer Engineering,Maharashtra,Mumbai,Private,97.5,175000.0,4.6
+PICT Pune,Engineering,IT,Maharashtra,Pune,Private,97.0,150000.0,4.5
+VIT Pune,Engineering,AI & Data Science,Maharashtra,Pune,Private,96.0,165000.0,4.4
+Walchand College,Engineering,CSE,Maharashtra,Sangli,Government,95.0,85000.0,4.5
+KJ Somaiya,Engineering,CSE,Maharashtra,Mumbai,Private,94.0,250000.0,4.3
+IIIT Hyderabad,Engineering,CSE,Telangana,Hyderabad,Government,99.5,300000.0,4.9
+IIIT Allahabad,Engineering,IT,Uttar Pradesh,Allahabad,Government,98.0,150000.0,4.7
+DTU,Engineering,CSE,Delhi,Delhi,Government,98.0,200000.0,4.7
+NSUT,Engineering,CSE,Delhi,Delhi,Government,97.5,220000.0,4.6
+RVCE,Engineering,CSE,Karnataka,Bangalore,Private,96.0,300000.0,4.5
+BMSCE,Engineering,CSE,Karnataka,Bangalore,Private,94.0,250000.0,4.4
+Thapar University,Engineering,CSE,Punjab,Patiala,Private,93.0,400000.0,4.3
+NLSIU,Law,BA LLB,Karnataka,Bangalore,Government,98.0,300000.0,4.9
+NALSAR,Law,BA LLB,Telangana,Hyderabad,Government,96.0,250000.0,4.8
+NLU Delhi,Law,BA LLB,Delhi,Delhi,Government,95.0,200000.0,4.8
+GLC Mumbai,Law,LLB,Maharashtra,Mumbai,Government,94.0,15000.0,4.6
+ILS Law College,Law,BA LLB,Maharashtra,Pune,Private,92.0,40000.0,4.5
+Symbiosis Law,Law,BA LLB,Maharashtra,Pune,Private,88.0,400000.0,4.4
+NIFT Mumbai,Design,B.Des Fashion,Maharashtra,Mumbai,Government,90.0,300000.0,4.6
+Srishti Institute,Design,B.Des,Karnataka,Bangalore,Private,80.0,500000.0,4.4
+AIIMS Delhi,Medical,MBBS,Delhi,Delhi,Government,99.5,2000.0,4.9
+CMC Vellore,Medical,MBBS,Tamil Nadu,Vellore,Private,98.0,50000.0,4.8
+AFMC Pune,Medical,MBBS,Maharashtra,Pune,Government,97.0,0.0,4.8
+KEM Hospital,Medical,MBBS,Maharashtra,Mumbai,Government,96.0,120000.0,4.7
+BJ Medical,Medical,MBBS,Maharashtra,Pune,Government,95.0,110000.0,4.6
+SRCC,Commerce,B.Com Hons,Delhi,Delhi,Government,98.5,30000.0,4.9
+Hindu College,Arts,BA Economics,Delhi,Delhi,Government,97.0,25000.0,4.8
+St Xaviers,Arts,BA Psychology,Maharashtra,Mumbai,Private,95.0,40000.0,4.7
+NMIMS,Commerce,BBA,Maharashtra,Mumbai,Private,90.0,350000.0,4.5
+IIT Bombay,Engineering,Civil,Maharashtra,Mumbai,Government,93.0,250000.0,4.5
+IIT Delhi,Engineering,Civil,Delhi,Delhi,Government,92.5,250000.0,4.5
+IIT Madras,Engineering,ECE,Tamil Nadu,Chennai,Government,98.0,250000.0,4.7
+IIT Madras,Engineering,Mechanical,Tamil Nadu,Chennai,Government,95.0,250000.0,4.6
+IIT Madras,Engineering,Civil,Tamil Nadu,Chennai,Government,92.0,250000.0,4.5
+IIT Kanpur,Engineering,ECE,Uttar Pradesh,Kanpur,Government,97.5,250000.0,4.7
+IIT Kanpur,Engineering,Mechanical,Uttar Pradesh,Kanpur,Government,94.5,250000.0,4.6
+IIT Kanpur,Engineering,Civil,Uttar Pradesh,Kanpur,Government,91.0,250000.0,4.5
+IIT Kharagpur,Engineering,ECE,West Bengal,Kharagpur,Government,97.0,250000.0,4.7
+IIT Kharagpur,Engineering,Mechanical,West Bengal,Kharagpur,Government,94.0,250000.0,4.6
+IIT Kharagpur,Engineering,Civil,West Bengal,Kharagpur,Government,90.5,250000.0,4.5
+IIT Roorkee,Engineering,CSE,Uttarakhand,Roorkee,Government,99.2,250000.0,4.8
+IIT Roorkee,Engineering,ECE,Uttarakhand,Roorkee,Government,96.5,250000.0,4.7
+IIT Roorkee,Engineering,Mechanical,Uttarakhand,Roorkee,Government,93.5,250000.0,4.6
+IIT Roorkee,Engineering,Civil,Uttarakhand,Roorkee,Government,90.0,250000.0,4.5
+IIT Guwahati,Engineering,CSE,Assam,Guwahati,Government,99.0,250000.0,4.8
+IIT Guwahati,Engineering,ECE,Assam,Guwahati,Government,96.0,250000.0,4.7
+IIT Guwahati,Engineering,Mechanical,Assam,Guwahati,Government,93.0,250000.0,4.6
+IIT Guwahati,Engineering,Civil,Assam,Guwahati,Government,89.0,250000.0,4.5
+IIT Hyderabad,Engineering,CSE,Telangana,Hyderabad,Government,99.1,250000.0,4.8
+IIT Hyderabad,Engineering,ECE,Telangana,Hyderabad,Government,96.2,250000.0,4.7
+IIT Hyderabad,Engineering,Mechanical,Telangana,Hyderabad,Government,93.2,250000.0,4.6
+IIT Hyderabad,Engineering,Civil,Telangana,Hyderabad,Government,89.5,250000.0,4.5
+IIT BHU,Engineering,CSE,Uttar Pradesh,Varanasi,Government,98.8,250000.0,4.8
+IIT BHU,Engineering,ECE,Uttar Pradesh,Varanasi,Government,95.5,250000.0,4.7
+IIT BHU,Engineering,Mechanical,Uttar Pradesh,Varanasi,Government,92.5,250000.0,4.6
+IIT BHU,Engineering,Civil,Uttar Pradesh,Varanasi,Government,88.0,250000.0,4.5
+IIT Indore,Engineering,CSE,Madhya Pradesh,Indore,Government,98.5,250000.0,4.8
+IIT Indore,Engineering,ECE,Madhya Pradesh,Indore,Government,95.0,250000.0,4.7
+IIT Indore,Engineering,Mechanical,Madhya Pradesh,Indore,Government,91.5,250000.0,4.6
+IIT Indore,Engineering,Civil,Madhya Pradesh,Indore,Government,87.0,250000.0,4.5
+IIT Gandhinagar,Engineering,CSE,Gujarat,Gandhinagar,Government,98.2,250000.0,4.8
+IIT Gandhinagar,Engineering,ECE,Gujarat,Gandhinagar,Government,94.5,250000.0,4.7
+IIT Gandhinagar,Engineering,Mechanical,Gujarat,Gandhinagar,Government,91.0,250000.0,4.6
+IIT Gandhinagar,Engineering,Civil,Gujarat,Gandhinagar,Government,86.0,250000.0,4.5
+IIT Ropar,Engineering,CSE,Punjab,Ropar,Government,98.0,250000.0,4.8
+IIT Ropar,Engineering,ECE,Punjab,Ropar,Government,94.0,250000.0,4.7
+IIT Ropar,Engineering,Mechanical,Punjab,Ropar,Government,90.5,250000.0,4.6
+IIT Ropar,Engineering,Civil,Punjab,Ropar,Government,85.0,250000.0,4.5
+IIT Patna,Engineering,CSE,Bihar,Patna,Government,97.5,250000.0,4.8
+IIT Patna,Engineering,ECE,Bihar,Patna,Government,93.5,250000.0,4.7
+IIT Patna,Engineering,Mechanical,Bihar,Patna,Government,90.0,250000.0,4.6
+IIT Patna,Engineering,Civil,Bihar,Patna,Government,84.0,250000.0,4.5
+IIT Mandi,Engineering,CSE,Himachal Pradesh,Mandi,Government,97.0,250000.0,4.8
+IIT Mandi,Engineering,ECE,Himachal Pradesh,Mandi,Government,93.0,250000.0,4.7
+IIT Mandi,Engineering,Mechanical,Himachal Pradesh,Mandi,Government,89.0,250000.0,4.6
+IIT Mandi,Engineering,Civil,Himachal Pradesh,Mandi,Government,83.0,250000.0,4.5
+IIT Jodhpur,Engineering,CSE,Rajasthan,Jodhpur,Government,96.5,250000.0,4.8
+IIT Jodhpur,Engineering,ECE,Rajasthan,Jodhpur,Government,92.0,250000.0,4.7
+IIT Jodhpur,Engineering,Mechanical,Rajasthan,Jodhpur,Government,88.0,250000.0,4.6
+IIT Jodhpur,Engineering,Civil,Rajasthan,Jodhpur,Government,82.0,250000.0,4.5
+NIT Trichy,Engineering,Civil,Tamil Nadu,Trichy,Government,91.0,150000.0,4.3
+NIT Surathkal,Engineering,ECE,Karnataka,Mangalore,Government,96.5,150000.0,4.5
+NIT Surathkal,Engineering,Mechanical,Karnataka,Mangalore,Government,93.5,150000.0,4.4
+NIT Surathkal,Engineering,Civil,Karnataka,Mangalore,Government,90.0,150000.0,4.3
+NIT Warangal,Engineering,Mechanical,Telangana,Warangal,Government,93.0,150000.0,4.4
+NIT Warangal,Engineering,Civil,Telangana,Warangal,Government,89.5,150000.0,4.3
+NIT Calicut,Engineering,ECE,Kerala,Kozhikode,Government,95.5,150000.0,4.5
+NIT Calicut,Engineering,Mechanical,Kerala,Kozhikode,Government,92.0,150000.0,4.4
+NIT Calicut,Engineering,Civil,Kerala,Kozhikode,Government,88.0,150000.0,4.3
+NIT Rourkela,Engineering,ECE,Odisha,Rourkela,Government,95.0,150000.0,4.5
+NIT Rourkela,Engineering,Mechanical,Odisha,Rourkela,Government,91.5,150000.0,4.4
+NIT Rourkela,Engineering,Civil,Odisha,Rourkela,Government,87.5,150000.0,4.3
+MNNIT Allahabad,Engineering,CSE,Uttar Pradesh,Allahabad,Government,98.0,150000.0,4.6
+MNNIT Allahabad,Engineering,ECE,Uttar Pradesh,Allahabad,Government,94.5,150000.0,4.5
+MNNIT Allahabad,Engineering,Mechanical,Uttar Pradesh,Allahabad,Government,91.0,150000.0,4.4
+MNNIT Allahabad,Engineering,Civil,Uttar Pradesh,Allahabad,Government,87.0,150000.0,4.3
+MNIT Jaipur,Engineering,CSE,Rajasthan,Jaipur,Government,97.5,150000.0,4.6
+MNIT Jaipur,Engineering,ECE,Rajasthan,Jaipur,Government,94.0,150000.0,4.5
+MNIT Jaipur,Engineering,Mechanical,Rajasthan,Jaipur,Government,90.5,150000.0,4.4
+MNIT Jaipur,Engineering,Civil,Rajasthan,Jaipur,Government,86.0,150000.0,4.3
+VNIT Nagpur,Engineering,CSE,Maharashtra,Nagpur,Government,97.2,150000.0,4.6
+VNIT Nagpur,Engineering,ECE,Maharashtra,Nagpur,Government,93.5,150000.0,4.5
+VNIT Nagpur,Engineering,Mechanical,Maharashtra,Nagpur,Government,90.0,150000.0,4.4
+VNIT Nagpur,Engineering,Civil,Maharashtra,Nagpur,Government,85.5,150000.0,4.3
+SVNIT Surat,Engineering,CSE,Gujarat,Surat,Government,97.0,150000.0,4.6
+SVNIT Surat,Engineering,ECE,Gujarat,Surat,Government,93.0,150000.0,4.5
+SVNIT Surat,Engineering,Mechanical,Gujarat,Surat,Government,89.0,150000.0,4.4
+SVNIT Surat,Engineering,Civil,Gujarat,Surat,Government,85.0,150000.0,4.3
+NIT Kurukshetra,Engineering,CSE,Haryana,Kurukshetra,Government,96.5,150000.0,4.6
+NIT Kurukshetra,Engineering,ECE,Haryana,Kurukshetra,Government,92.5,150000.0,4.5
+NIT Kurukshetra,Engineering,Mechanical,Haryana,Kurukshetra,Government,88.5,150000.0,4.4
+NIT Kurukshetra,Engineering,Civil,Haryana,Kurukshetra,Government,84.0,150000.0,4.3
+NIT Durgapur,Engineering,CSE,West Bengal,Durgapur,Government,96.0,150000.0,4.6
+NIT Durgapur,Engineering,ECE,West Bengal,Durgapur,Government,92.0,150000.0,4.5
+NIT Durgapur,Engineering,Mechanical,West Bengal,Durgapur,Government,87.5,150000.0,4.4
+NIT Durgapur,Engineering,Civil,West Bengal,Durgapur,Government,83.0,150000.0,4.3
+NIT Jalandhar,Engineering,CSE,Punjab,Jalandhar,Government,95.5,150000.0,4.6
+NIT Jalandhar,Engineering,ECE,Punjab,Jalandhar,Government,91.0,150000.0,4.5
+NIT Jalandhar,Engineering,Mechanical,Punjab,Jalandhar,Government,86.5,150000.0,4.4
+NIT Jalandhar,Engineering,Civil,Punjab,Jalandhar,Government,82.0,150000.0,4.3
+NIT Jamshedpur,Engineering,CSE,Jharkhand,Jamshedpur,Government,95.0,150000.0,4.6
+NIT Jamshedpur,Engineering,ECE,Jharkhand,Jamshedpur,Government,90.5,150000.0,4.5
+NIT Jamshedpur,Engineering,Mechanical,Jharkhand,Jamshedpur,Government,86.0,150000.0,4.4
+NIT Jamshedpur,Engineering,Civil,Jharkhand,Jamshedpur,Government,81.0,150000.0,4.3
+NIT Bhopal,Engineering,CSE,Madhya Pradesh,Bhopal,Government,94.5,150000.0,4.6
+NIT Bhopal,Engineering,ECE,Madhya Pradesh,Bhopal,Government,90.0,150000.0,4.5
+NIT Bhopal,Engineering,Mechanical,Madhya Pradesh,Bhopal,Government,85.5,150000.0,4.4
+NIT Bhopal,Engineering,Civil,Madhya Pradesh,Bhopal,Government,80.0,150000.0,4.3
+NIT Raipur,Engineering,CSE,Chhattisgarh,Raipur,Government,94.0,150000.0,4.6
+NIT Raipur,Engineering,ECE,Chhattisgarh,Raipur,Government,89.0,150000.0,4.5
+NIT Raipur,Engineering,Mechanical,Chhattisgarh,Raipur,Government,84.5,150000.0,4.4
+NIT Raipur,Engineering,Civil,Chhattisgarh,Raipur,Government,79.0,150000.0,4.3
+COEP Pune,Engineering,CSE,Maharashtra,Pune,Government,99.8,90000.0,4.8
+COEP Pune,Engineering,ECE,Maharashtra,Pune,Government,99.0,90000.0,4.7
+COEP Pune,Engineering,Mechanical,Maharashtra,Pune,Government,98.0,90000.0,4.6
+COEP Pune,Engineering,Civil,Maharashtra,Pune,Government,97.0,90000.0,4.5
+VJTI Mumbai,Engineering,CSE,Maharashtra,Mumbai,Government,99.7,85000.0,4.7
+VJTI Mumbai,Engineering,ECE,Maharashtra,Mumbai,Government,98.8,85000.0,4.6000000000000005
+VJTI Mumbai,Engineering,Mechanical,Maharashtra,Mumbai,Government,97.5,85000.0,4.5
+VJTI Mumbai,Engineering,Civil,Maharashtra,Mumbai,Government,96.5,85000.0,4.4
+SPIT Mumbai,Engineering,CSE,Maharashtra,Mumbai,Private,99.2,175000.0,4.6
+SPIT Mumbai,Engineering,ECE,Maharashtra,Mumbai,Private,98.0,175000.0,4.5
+SPIT Mumbai,Engineering,Mechanical,Maharashtra,Mumbai,Private,95.0,175000.0,4.4
+PICT Pune,Engineering,CSE,Maharashtra,Pune,Private,99.0,150000.0,4.6
+PICT Pune,Engineering,ECE,Maharashtra,Pune,Private,97.5,150000.0,4.5
+Walchand College,Engineering,ECE,Maharashtra,Sangli,Government,97.0,85000.0,4.4
+Walchand College,Engineering,Mechanical,Maharashtra,Sangli,Government,95.5,85000.0,4.3
+Walchand College,Engineering,Civil,Maharashtra,Sangli,Government,94.0,85000.0,4.2
+VIT Pune,Engineering,CSE,Maharashtra,Pune,Private,97.5,165000.0,4.4
+VIT Pune,Engineering,ECE,Maharashtra,Pune,Private,95.5,165000.0,4.300000000000001
+VIT Pune,Engineering,Mechanical,Maharashtra,Pune,Private,93.0,165000.0,4.2
+VIT Pune,Engineering,Civil,Maharashtra,Pune,Private,90.0,165000.0,4.1000000000000005
+DJ Sanghvi,Engineering,CSE,Maharashtra,Mumbai,Private,97.0,190000.0,4.5
+DJ Sanghvi,Engineering,ECE,Maharashtra,Mumbai,Private,95.0,190000.0,4.4
+DJ Sanghvi,Engineering,Mechanical,Maharashtra,Mumbai,Private,92.0,190000.0,4.3
+KJ Somaiya,Engineering,ECE,Maharashtra,Mumbai,Private,94.5,250000.0,4.2
+KJ Somaiya,Engineering,Mechanical,Maharashtra,Mumbai,Private,91.5,250000.0,4.1
+KJ Somaiya,Engineering,Civil,Maharashtra,Mumbai,Private,89.0,250000.0,4.0
+PCCOE Pune,Engineering,CSE,Maharashtra,Pune,Private,95.0,140000.0,4.3
+PCCOE Pune,Engineering,ECE,Maharashtra,Pune,Private,92.5,140000.0,4.2
+PCCOE Pune,Engineering,Mechanical,Maharashtra,Pune,Private,89.0,140000.0,4.1
+PCCOE Pune,Engineering,Civil,Maharashtra,Pune,Private,86.0,140000.0,4.0
+Cummins College (Women),Engineering,CSE,Maharashtra,Pune,Private,94.5,150000.0,4.4
+Cummins College (Women),Engineering,ECE,Maharashtra,Pune,Private,91.5,150000.0,4.300000000000001
+Cummins College (Women),Engineering,Mechanical,Maharashtra,Pune,Private,88.0,150000.0,4.2
+Thadomal Shahani,Engineering,CSE,Maharashtra,Mumbai,Private,94.0,180000.0,4.3
+Thadomal Shahani,Engineering,ECE,Maharashtra,Mumbai,Private,91.0,180000.0,4.2
+Thadomal Shahani,Engineering,Mechanical,Maharashtra,Mumbai,Private,87.0,180000.0,4.1
+VESIT Mumbai,Engineering,CSE,Maharashtra,Mumbai,Private,93.0,130000.0,4.2
+VESIT Mumbai,Engineering,ECE,Maharashtra,Mumbai,Private,90.0,130000.0,4.1000000000000005
+VESIT Mumbai,Engineering,Mechanical,Maharashtra,Mumbai,Private,86.0,130000.0,4.0
+Thakur College,Engineering,CSE,Maharashtra,Mumbai,Private,91.0,160000.0,4.1
+Thakur College,Engineering,ECE,Maharashtra,Mumbai,Private,88.0,160000.0,4.0
+Thakur College,Engineering,Mechanical,Maharashtra,Mumbai,Private,84.0,160000.0,3.9
+Thakur College,Engineering,Civil,Maharashtra,Mumbai,Private,80.0,160000.0,3.8
+Don Bosco Institute,Engineering,CSE,Maharashtra,Mumbai,Private,90.0,140000.0,4.1
+Don Bosco Institute,Engineering,ECE,Maharashtra,Mumbai,Private,87.0,140000.0,4.0
+Don Bosco Institute,Engineering,Mechanical,Maharashtra,Mumbai,Private,82.0,140000.0,3.9
+Don Bosco Institute,Engineering,Civil,Maharashtra,Mumbai,Private,78.0,140000.0,3.8
+DY Patil Pimpri,Engineering,CSE,Maharashtra,Pune,Private,89.0,135000.0,4.0
+DY Patil Pimpri,Engineering,ECE,Maharashtra,Pune,Private,85.0,135000.0,3.9
+DY Patil Pimpri,Engineering,Mechanical,Maharashtra,Pune,Private,80.0,135000.0,3.8
+DY Patil Pimpri,Engineering,Civil,Maharashtra,Pune,Private,75.0,135000.0,3.7
+Ramrao Adik IT,Engineering,CSE,Maharashtra,Navi Mumbai,Private,88.0,150000.0,4.0
+Ramrao Adik IT,Engineering,ECE,Maharashtra,Navi Mumbai,Private,84.0,150000.0,3.9
+Ramrao Adik IT,Engineering,Mechanical,Maharashtra,Navi Mumbai,Private,79.0,150000.0,3.8
+Sinhgad Vadgaon,Engineering,CSE,Maharashtra,Pune,Private,85.0,125000.0,3.9
+Sinhgad Vadgaon,Engineering,ECE,Maharashtra,Pune,Private,81.0,125000.0,3.8
+Sinhgad Vadgaon,Engineering,Mechanical,Maharashtra,Pune,Private,75.0,125000.0,3.7
+Sinhgad Vadgaon,Engineering,Civil,Maharashtra,Pune,Private,70.0,125000.0,3.6
+AISSMS Pune,Engineering,CSE,Maharashtra,Pune,Private,82.0,130000.0,3.8
+AISSMS Pune,Engineering,ECE,Maharashtra,Pune,Private,78.0,130000.0,3.7
+AISSMS Pune,Engineering,Mechanical,Maharashtra,Pune,Private,72.0,130000.0,3.6
+AISSMS Pune,Engineering,Civil,Maharashtra,Pune,Private,68.0,130000.0,3.5
+MIT Academy Alandi,Engineering,CSE,Maharashtra,Pune,Private,78.0,160000.0,3.9
+MIT Academy Alandi,Engineering,ECE,Maharashtra,Pune,Private,74.0,160000.0,3.8
+MIT Academy Alandi,Engineering,Mechanical,Maharashtra,Pune,Private,68.0,160000.0,3.7
+MIT Academy Alandi,Engineering,Civil,Maharashtra,Pune,Private,62.0,160000.0,3.6
+Datta Meghe,Engineering,CSE,Maharashtra,Navi Mumbai,Private,75.0,110000.0,3.7
+Datta Meghe,Engineering,ECE,Maharashtra,Navi Mumbai,Private,70.0,110000.0,3.6
+Datta Meghe,Engineering,Mechanical,Maharashtra,Navi Mumbai,Private,65.0,110000.0,3.5
+Datta Meghe,Engineering,Civil,Maharashtra,Navi Mumbai,Private,60.0,110000.0,3.4000000000000004
+Terna Engineering,Engineering,CSE,Maharashtra,Navi Mumbai,Private,72.0,115000.0,3.6
+Terna Engineering,Engineering,ECE,Maharashtra,Navi Mumbai,Private,68.0,115000.0,3.5
+Terna Engineering,Engineering,Mechanical,Maharashtra,Navi Mumbai,Private,62.0,115000.0,3.4
+Terna Engineering,Engineering,Civil,Maharashtra,Navi Mumbai,Private,55.0,115000.0,3.3000000000000003
+Saraswati College,Engineering,CSE,Maharashtra,Navi Mumbai,Private,68.0,105000.0,3.5
+Saraswati College,Engineering,ECE,Maharashtra,Navi Mumbai,Private,62.0,105000.0,3.4
+Saraswati College,Engineering,Mechanical,Maharashtra,Navi Mumbai,Private,58.0,105000.0,3.3
+Saraswati College,Engineering,Civil,Maharashtra,Navi Mumbai,Private,50.0,105000.0,3.2
+Atharva College,Engineering,CSE,Maharashtra,Mumbai,Private,65.0,120000.0,3.5
+Atharva College,Engineering,ECE,Maharashtra,Mumbai,Private,60.0,120000.0,3.4
+Atharva College,Engineering,Mechanical,Maharashtra,Mumbai,Private,55.0,120000.0,3.3
+Atharva College,Engineering,Civil,Maharashtra,Mumbai,Private,48.0,120000.0,3.2
+GH Raisoni,Engineering,CSE,Maharashtra,Pune,Private,60.0,110000.0,3.4
+GH Raisoni,Engineering,ECE,Maharashtra,Pune,Private,55.0,110000.0,3.3
+GH Raisoni,Engineering,Mechanical,Maharashtra,Pune,Private,50.0,110000.0,3.2
+GH Raisoni,Engineering,Civil,Maharashtra,Pune,Private,45.0,110000.0,3.1
+Indira College,Engineering,CSE,Maharashtra,Pune,Private,48.0,100000.0,3.3
+Indira College,Engineering,ECE,Maharashtra,Pune,Private,42.0,100000.0,3.2
+Indira College,Engineering,Mechanical,Maharashtra,Pune,Private,38.0,100000.0,3.1
+Indira College,Engineering,Civil,Maharashtra,Pune,Private,32.0,100000.0,3.0
+AP Shah Institute,Engineering,CSE,Maharashtra,Thane,Private,45.0,95000.0,3.2
+AP Shah Institute,Engineering,ECE,Maharashtra,Thane,Private,38.0,95000.0,3.1
+AP Shah Institute,Engineering,Mechanical,Maharashtra,Thane,Private,32.0,95000.0,3.0
+AP Shah Institute,Engineering,Civil,Maharashtra,Thane,Private,28.0,95000.0,2.9000000000000004
+Universal College,Engineering,CSE,Maharashtra,Vasai,Private,40.0,90000.0,3.1
+Universal College,Engineering,ECE,Maharashtra,Vasai,Private,35.0,90000.0,3.0
+Universal College,Engineering,Mechanical,Maharashtra,Vasai,Private,28.0,90000.0,2.9
+Universal College,Engineering,Civil,Maharashtra,Vasai,Private,22.0,90000.0,2.8000000000000003
+JCOE Kuran,Engineering,CSE,Maharashtra,Pune,Private,35.0,75000.0,3.0
+JCOE Kuran,Engineering,ECE,Maharashtra,Pune,Private,28.0,75000.0,2.9
+JCOE Kuran,Engineering,Mechanical,Maharashtra,Pune,Private,20.0,75000.0,2.8
+JCOE Kuran,Engineering,Civil,Maharashtra,Pune,Private,15.0,75000.0,2.7
+Siddhant College,Engineering,CSE,Maharashtra,Pune,Private,25.0,70000.0,2.9
+Siddhant College,Engineering,ECE,Maharashtra,Pune,Private,20.0,70000.0,2.8
+Siddhant College,Engineering,Mechanical,Maharashtra,Pune,Private,12.0,70000.0,2.7
+Siddhant College,Engineering,Civil,Maharashtra,Pune,Private,8.0,70000.0,2.6
+Anantrao Pawar,Engineering,CSE,Maharashtra,Pune,Private,15.0,65000.0,2.8
+Anantrao Pawar,Engineering,ECE,Maharashtra,Pune,Private,10.0,65000.0,2.7
+Anantrao Pawar,Engineering,Mechanical,Maharashtra,Pune,Private,5.0,65000.0,2.6
+Anantrao Pawar,Engineering,Civil,Maharashtra,Pune,Private,2.0,65000.0,2.5
+KVCET,Engineering,CSE,Maharashtra,Palghar,Private,8.0,60000.0,2.7
+KVCET,Engineering,ECE,Maharashtra,Palghar,Private,5.0,60000.0,2.6
+KVCET,Engineering,Mechanical,Maharashtra,Palghar,Private,2.0,60000.0,2.5
+KVCET,Engineering,Civil,Maharashtra,Palghar,Private,1.0,60000.0,2.4000000000000004
+IIT Bhubaneswar,Engineering,CSE,Odisha,Bhubaneswar,Government,97.4,250000.0,4.8
+IIT Bhubaneswar,Engineering,ECE,Odisha,Bhubaneswar,Government,95.9,250000.0,4.7
+IIT Bhubaneswar,Engineering,Mechanical,Odisha,Bhubaneswar,Government,94.4,250000.0,4.6
+IIT Bhubaneswar,Engineering,Civil,Odisha,Bhubaneswar,Government,92.9,250000.0,4.5
+IIT Tirupati,Engineering,CSE,Andhra Pradesh,Tirupati,Government,96.5,250000.0,4.8
+IIT Tirupati,Engineering,ECE,Andhra Pradesh,Tirupati,Government,95.0,250000.0,4.7
+IIT Tirupati,Engineering,Mechanical,Andhra Pradesh,Tirupati,Government,93.5,250000.0,4.6
+IIT Tirupati,Engineering,Civil,Andhra Pradesh,Tirupati,Government,92.0,250000.0,4.5
+IIT Palakkad,Engineering,CSE,Kerala,Palakkad,Government,96.2,250000.0,4.8
+IIT Palakkad,Engineering,ECE,Kerala,Palakkad,Government,94.7,250000.0,4.7
+IIT Palakkad,Engineering,Mechanical,Kerala,Palakkad,Government,93.2,250000.0,4.6
+IIT Palakkad,Engineering,Civil,Kerala,Palakkad,Government,91.7,250000.0,4.5
+IIT Jammu,Engineering,CSE,J&K,Jammu,Government,95.5,250000.0,4.8
+IIT Jammu,Engineering,ECE,J&K,Jammu,Government,94.0,250000.0,4.7
+IIT Jammu,Engineering,Mechanical,J&K,Jammu,Government,92.5,250000.0,4.6
+IIT Jammu,Engineering,Civil,J&K,Jammu,Government,91.0,250000.0,4.5
+IIT Dharwad,Engineering,CSE,Karnataka,Dharwad,Government,96.0,250000.0,4.8
+IIT Dharwad,Engineering,ECE,Karnataka,Dharwad,Government,94.5,250000.0,4.7
+IIT Dharwad,Engineering,Mechanical,Karnataka,Dharwad,Government,93.0,250000.0,4.6
+IIT Dharwad,Engineering,Civil,Karnataka,Dharwad,Government,91.5,250000.0,4.5
+IIT Bhilai,Engineering,CSE,Chhattisgarh,Bhilai,Government,95.8,250000.0,4.8
+IIT Bhilai,Engineering,ECE,Chhattisgarh,Bhilai,Government,94.3,250000.0,4.7
+IIT Bhilai,Engineering,Mechanical,Chhattisgarh,Bhilai,Government,92.8,250000.0,4.6
+IIT Bhilai,Engineering,Civil,Chhattisgarh,Bhilai,Government,91.3,250000.0,4.5
+IIT Goa,Engineering,CSE,Goa,Goa,Government,96.8,250000.0,4.8
+IIT Goa,Engineering,ECE,Goa,Goa,Government,95.3,250000.0,4.7
+IIT Goa,Engineering,Mechanical,Goa,Goa,Government,93.8,250000.0,4.6
+IIT Goa,Engineering,Civil,Goa,Goa,Government,92.3,250000.0,4.5
+IIT ISM Dhanbad,Engineering,CSE,Jharkhand,ISM Dhanbad,Government,98.2,250000.0,4.8
+IIT ISM Dhanbad,Engineering,ECE,Jharkhand,ISM Dhanbad,Government,96.7,250000.0,4.7
+IIT ISM Dhanbad,Engineering,Mechanical,Jharkhand,ISM Dhanbad,Government,95.2,250000.0,4.6
+IIT ISM Dhanbad,Engineering,Civil,Jharkhand,ISM Dhanbad,Government,93.7,250000.0,4.5
+NIT Allahabad,Engineering,CSE,Uttar Pradesh,Allahabad,Government,97.8,150000.0,4.6
+NIT Allahabad,Engineering,ECE,Uttar Pradesh,Allahabad,Government,95.8,150000.0,4.5
+NIT Allahabad,Engineering,Mechanical,Uttar Pradesh,Allahabad,Government,93.8,150000.0,4.3
+NIT Jaipur,Engineering,CSE,Rajasthan,Jaipur,Government,97.5,150000.0,4.6
+NIT Jaipur,Engineering,ECE,Rajasthan,Jaipur,Government,95.5,150000.0,4.5
+NIT Jaipur,Engineering,Mechanical,Rajasthan,Jaipur,Government,93.5,150000.0,4.3
+NIT Nagpur,Engineering,CSE,Maharashtra,Nagpur,Government,97.2,150000.0,4.6
+NIT Nagpur,Engineering,ECE,Maharashtra,Nagpur,Government,95.2,150000.0,4.5
+NIT Nagpur,Engineering,Mechanical,Maharashtra,Nagpur,Government,93.2,150000.0,4.3
+NIT Surat,Engineering,CSE,Gujarat,Surat,Government,97.0,150000.0,4.6
+NIT Surat,Engineering,ECE,Gujarat,Surat,Government,95.0,150000.0,4.5
+NIT Surat,Engineering,Mechanical,Gujarat,Surat,Government,93.0,150000.0,4.3
+AIIMS Rishikesh,Medical,MBBS,Other,Rishikesh,Government,98.0,5000.0,4.9
+AIIMS Bhubaneswar,Medical,MBBS,Other,Bhubaneswar,Government,97.8,5000.0,4.9
+AIIMS Patna,Medical,MBBS,Other,Patna,Government,97.5,5000.0,4.9
+AIIMS Raipur,Medical,MBBS,Other,Raipur,Government,97.0,5000.0,4.9
+AIIMS Nagpur,Medical,MBBS,Maharashtra,Nagpur,Government,96.8,5000.0,4.9
+AIIMS Kalyani,Medical,MBBS,Other,Kalyani,Government,96.5,5000.0,4.9
+AIIMS Gorakhpur,Medical,MBBS,Other,Gorakhpur,Government,96.0,5000.0,4.9
+NLSIU Bangalore,Law,BA LLB,Other,Bangalore,Government,99.5,250000.0,4.8
+NALSAR Hyderabad,Law,BA LLB,Other,Hyderabad,Government,99.0,250000.0,4.8
+WBNUJS Kolkata,Law,BA LLB,Other,Kolkata,Government,98.0,250000.0,4.8
+NLIU Bhopal,Law,BA LLB,Other,Bhopal,Government,97.5,250000.0,4.8
+NLU Jodhpur,Law,BA LLB,Other,Jodhpur,Government,97.0,250000.0,4.8
+GNLU Gandhinagar,Law,BA LLB,Other,Gandhinagar,Government,96.5,250000.0,4.8
+RMLNLU Lucknow,Law,BA LLB,Other,Lucknow,Government,96.0,250000.0,4.8
+MNLU Mumbai,Law,BA LLB,Other,Mumbai,Government,95.5,250000.0,4.8
+MNLU Nagpur,Law,BA LLB,Other,Nagpur,Government,94.0,250000.0,4.8
+MNLU Aurangabad,Law,BA LLB,Other,Aurangabad,Government,92.0,250000.0,4.8
+Government College of Engineering Mumbai,Engineering,CSE,Maharashtra,Mumbai,Government,92.0,85000.0,4.2
+Government College of Engineering Mumbai,Engineering,Mechanical,Maharashtra,Mumbai,Government,85.0,85000.0,4.0
+Mumbai Institute of Technology (Tier 1),Engineering,CSE,Maharashtra,Mumbai,Private,74.18685512240751,110000.0,4.2
+Mumbai Institute of Technology (Tier 1),Engineering,ECE,Maharashtra,Mumbai,Private,69.18685512240751,110000.0,4.2
+Mumbai Institute of Technology (Tier 1),Engineering,Civil,Maharashtra,Mumbai,Private,59.18685512240751,110000.0,4.2
+Mumbai Institute of Technology (Tier 2),Engineering,CSE,Maharashtra,Mumbai,Private,63.63424217131337,120000.0,3.9
+Mumbai Institute of Technology (Tier 2),Engineering,ECE,Maharashtra,Mumbai,Private,58.63424217131337,120000.0,3.9
+Mumbai Institute of Technology (Tier 2),Engineering,Civil,Maharashtra,Mumbai,Private,48.63424217131337,120000.0,3.9
+Mumbai Institute of Technology (Tier 3),Engineering,CSE,Maharashtra,Mumbai,Private,49.972083036156825,95000.0,3.6
+Mumbai Institute of Technology (Tier 3),Engineering,ECE,Maharashtra,Mumbai,Private,44.972083036156825,95000.0,3.6
+Mumbai Institute of Technology (Tier 3),Engineering,Civil,Maharashtra,Mumbai,Private,34.972083036156825,95000.0,3.6
+Mumbai Institute of Technology (Tier 4),Engineering,CSE,Maharashtra,Mumbai,Private,38.51361264084182,100000.0,3.3
+Mumbai Institute of Technology (Tier 4),Engineering,ECE,Maharashtra,Mumbai,Private,33.51361264084182,100000.0,3.3
+Mumbai Institute of Technology (Tier 4),Engineering,Civil,Maharashtra,Mumbai,Private,23.51361264084182,100000.0,3.3
+Mumbai Institute of Technology (Tier 5),Engineering,CSE,Maharashtra,Mumbai,Private,29.23943030042769,105000.0,3.0
+Mumbai Institute of Technology (Tier 5),Engineering,ECE,Maharashtra,Mumbai,Private,24.23943030042769,105000.0,3.0
+Mumbai Institute of Technology (Tier 5),Engineering,Civil,Maharashtra,Mumbai,Private,14.239430300427692,105000.0,3.0
+Government Medical College Mumbai,Medical,MBBS,Maharashtra,Mumbai,Government,93.0,120000.0,4.5
+Mumbai Private Medical Institute,Medical,MBBS,Maharashtra,Mumbai,Private,85.0,900000.0,4.1
+Mumbai Ayurvedic College,Medical,BAMS,Maharashtra,Mumbai,Private,70.0,300000.0,3.8
+Mumbai Government Law College,Law,LLB,Maharashtra,Mumbai,Government,80.0,25000.0,4.2
+Mumbai College of Law,Law,BA LLB,Maharashtra,Mumbai,Private,65.0,75000.0,3.8
+Mumbai City College of Commerce,Commerce,B.Com,Maharashtra,Mumbai,Private,75.0,35000.0,4.0
+Mumbai Institute of Management,Commerce,BBA,Maharashtra,Mumbai,Private,70.0,120000.0,4.2
+Mumbai Arts & Science College,Arts,BA English,Maharashtra,Mumbai,Government,60.0,15000.0,3.9
+Mumbai Science Institute,Science,BSc Computer Science,Maharashtra,Mumbai,Private,65.0,50000.0,3.9
+Government College of Engineering Pune,Engineering,CSE,Maharashtra,Pune,Government,90.16,85000.0,4.2
+Government College of Engineering Pune,Engineering,Mechanical,Maharashtra,Pune,Government,83.3,85000.0,4.0
+Pune Institute of Technology (Tier 1),Engineering,CSE,Maharashtra,Pune,Private,78.69856372412437,110000.0,4.2
+Pune Institute of Technology (Tier 1),Engineering,ECE,Maharashtra,Pune,Private,73.69856372412437,110000.0,4.2
+Pune Institute of Technology (Tier 1),Engineering,Civil,Maharashtra,Pune,Private,63.69856372412437,110000.0,4.2
+Pune Institute of Technology (Tier 2),Engineering,CSE,Maharashtra,Pune,Private,61.20846958680773,120000.0,3.9
+Pune Institute of Technology (Tier 2),Engineering,ECE,Maharashtra,Pune,Private,56.20846958680773,120000.0,3.9
+Pune Institute of Technology (Tier 2),Engineering,Civil,Maharashtra,Pune,Private,46.20846958680773,120000.0,3.9
+Pune Institute of Technology (Tier 3),Engineering,CSE,Maharashtra,Pune,Private,49.4267482370295,95000.0,3.6
+Pune Institute of Technology (Tier 3),Engineering,ECE,Maharashtra,Pune,Private,44.4267482370295,95000.0,3.6
+Pune Institute of Technology (Tier 3),Engineering,Civil,Maharashtra,Pune,Private,34.4267482370295,95000.0,3.6
+Pune Institute of Technology (Tier 4),Engineering,CSE,Maharashtra,Pune,Private,36.67874805371471,100000.0,3.3
+Pune Institute of Technology (Tier 4),Engineering,ECE,Maharashtra,Pune,Private,31.678748053714703,100000.0,3.3
+Pune Institute of Technology (Tier 4),Engineering,Civil,Maharashtra,Pune,Private,21.678748053714703,100000.0,3.3
+Pune Institute of Technology (Tier 5),Engineering,CSE,Maharashtra,Pune,Private,31.86161538891748,105000.0,3.0
+Pune Institute of Technology (Tier 5),Engineering,ECE,Maharashtra,Pune,Private,26.86161538891748,105000.0,3.0
+Pune Institute of Technology (Tier 5),Engineering,Civil,Maharashtra,Pune,Private,16.86161538891748,105000.0,3.0
+Government Medical College Pune,Medical,MBBS,Maharashtra,Pune,Government,91.14,120000.0,4.5
+Pune Private Medical Institute,Medical,MBBS,Maharashtra,Pune,Private,83.3,900000.0,4.1
+Pune Ayurvedic College,Medical,BAMS,Maharashtra,Pune,Private,68.6,300000.0,3.8
+Pune Government Law College,Law,LLB,Maharashtra,Pune,Government,78.4,25000.0,4.2
+Pune College of Law,Law,BA LLB,Maharashtra,Pune,Private,63.7,75000.0,3.8
+Pune City College of Commerce,Commerce,B.Com,Maharashtra,Pune,Private,73.5,35000.0,4.0
+Pune Institute of Management,Commerce,BBA,Maharashtra,Pune,Private,68.6,120000.0,4.2
+Pune Arts & Science College,Arts,BA English,Maharashtra,Pune,Government,58.8,15000.0,3.9
+Pune Science Institute,Science,BSc Computer Science,Maharashtra,Pune,Private,63.7,50000.0,3.9
+Government College of Engineering Nagpur,Engineering,CSE,Maharashtra,Nagpur,Government,87.39999999999999,85000.0,4.2
+Government College of Engineering Nagpur,Engineering,Mechanical,Maharashtra,Nagpur,Government,80.75,85000.0,4.0
+Nagpur Institute of Technology (Tier 1),Engineering,CSE,Maharashtra,Nagpur,Private,74.25377785745057,110000.0,4.2
+Nagpur Institute of Technology (Tier 1),Engineering,ECE,Maharashtra,Nagpur,Private,69.25377785745057,110000.0,4.2
+Nagpur Institute of Technology (Tier 1),Engineering,Civil,Maharashtra,Nagpur,Private,59.25377785745057,110000.0,4.2
+Nagpur Institute of Technology (Tier 2),Engineering,CSE,Maharashtra,Nagpur,Private,66.50755256055619,120000.0,3.9
+Nagpur Institute of Technology (Tier 2),Engineering,ECE,Maharashtra,Nagpur,Private,61.50755256055619,120000.0,3.9
+Nagpur Institute of Technology (Tier 2),Engineering,Civil,Maharashtra,Nagpur,Private,51.50755256055619,120000.0,3.9
+Nagpur Institute of Technology (Tier 3),Engineering,CSE,Maharashtra,Nagpur,Private,55.88331409967078,95000.0,3.6
+Nagpur Institute of Technology (Tier 3),Engineering,ECE,Maharashtra,Nagpur,Private,50.88331409967078,95000.0,3.6
+Nagpur Institute of Technology (Tier 3),Engineering,Civil,Maharashtra,Nagpur,Private,40.88331409967078,95000.0,3.6
+Nagpur Institute of Technology (Tier 4),Engineering,CSE,Maharashtra,Nagpur,Private,40.70066757849403,100000.0,3.3
+Nagpur Institute of Technology (Tier 4),Engineering,ECE,Maharashtra,Nagpur,Private,35.70066757849403,100000.0,3.3
+Nagpur Institute of Technology (Tier 4),Engineering,Civil,Maharashtra,Nagpur,Private,25.700667578494027,100000.0,3.3
+Nagpur Institute of Technology (Tier 5),Engineering,CSE,Maharashtra,Nagpur,Private,29.71930240599216,105000.0,3.0
+Nagpur Institute of Technology (Tier 5),Engineering,ECE,Maharashtra,Nagpur,Private,24.71930240599216,105000.0,3.0
+Nagpur Institute of Technology (Tier 5),Engineering,Civil,Maharashtra,Nagpur,Private,14.719302405992156,105000.0,3.0
+Government Medical College Nagpur,Medical,MBBS,Maharashtra,Nagpur,Government,88.35,120000.0,4.5
+Nagpur Private Medical Institute,Medical,MBBS,Maharashtra,Nagpur,Private,80.75,900000.0,4.1
+Nagpur Ayurvedic College,Medical,BAMS,Maharashtra,Nagpur,Private,66.5,300000.0,3.8
+Nagpur Government Law College,Law,LLB,Maharashtra,Nagpur,Government,76.0,25000.0,4.2
+Nagpur College of Law,Law,BA LLB,Maharashtra,Nagpur,Private,61.75,75000.0,3.8
+Nagpur City College of Commerce,Commerce,B.Com,Maharashtra,Nagpur,Private,71.25,35000.0,4.0
+Nagpur Institute of Management,Commerce,BBA,Maharashtra,Nagpur,Private,66.5,120000.0,4.2
+Nagpur Arts & Science College,Arts,BA English,Maharashtra,Nagpur,Government,57.0,15000.0,3.9
+Nagpur Science Institute,Science,BSc Computer Science,Maharashtra,Nagpur,Private,61.75,50000.0,3.9
+Government College of Engineering Nashik,Engineering,CSE,Maharashtra,Nashik,Government,84.64,85000.0,4.2
+Government College of Engineering Nashik,Engineering,Mechanical,Maharashtra,Nashik,Government,78.2,85000.0,4.0
+Nashik Institute of Technology (Tier 1),Engineering,CSE,Maharashtra,Nashik,Private,71.17751041358862,110000.0,4.2
+Nashik Institute of Technology (Tier 1),Engineering,ECE,Maharashtra,Nashik,Private,66.17751041358862,110000.0,4.2
+Nashik Institute of Technology (Tier 1),Engineering,Civil,Maharashtra,Nashik,Private,56.17751041358862,110000.0,4.2
+Nashik Institute of Technology (Tier 2),Engineering,CSE,Maharashtra,Nashik,Private,59.270124592818654,120000.0,3.9
+Nashik Institute of Technology (Tier 2),Engineering,ECE,Maharashtra,Nashik,Private,54.270124592818654,120000.0,3.9
+Nashik Institute of Technology (Tier 2),Engineering,Civil,Maharashtra,Nashik,Private,44.270124592818654,120000.0,3.9
+Nashik Institute of Technology (Tier 3),Engineering,CSE,Maharashtra,Nashik,Private,52.60616658685902,95000.0,3.6
+Nashik Institute of Technology (Tier 3),Engineering,ECE,Maharashtra,Nashik,Private,47.60616658685902,95000.0,3.6
+Nashik Institute of Technology (Tier 3),Engineering,Civil,Maharashtra,Nashik,Private,37.60616658685902,95000.0,3.6
+Nashik Institute of Technology (Tier 4),Engineering,CSE,Maharashtra,Nashik,Private,40.97872375249234,100000.0,3.3
+Nashik Institute of Technology (Tier 4),Engineering,ECE,Maharashtra,Nashik,Private,35.97872375249234,100000.0,3.3
+Nashik Institute of Technology (Tier 4),Engineering,Civil,Maharashtra,Nashik,Private,25.978723752492343,100000.0,3.3
+Nashik Institute of Technology (Tier 5),Engineering,CSE,Maharashtra,Nashik,Private,26.0920425222594,105000.0,3.0
+Nashik Institute of Technology (Tier 5),Engineering,ECE,Maharashtra,Nashik,Private,21.0920425222594,105000.0,3.0
+Nashik Institute of Technology (Tier 5),Engineering,Civil,Maharashtra,Nashik,Private,11.092042522259394,105000.0,3.0
+Government Medical College Nashik,Medical,MBBS,Maharashtra,Nashik,Government,85.56,120000.0,4.5
+Nashik Private Medical Institute,Medical,MBBS,Maharashtra,Nashik,Private,78.2,900000.0,4.1
+Nashik Ayurvedic College,Medical,BAMS,Maharashtra,Nashik,Private,64.4,300000.0,3.8
+Nashik Government Law College,Law,LLB,Maharashtra,Nashik,Government,73.60000000000001,25000.0,4.2
+Nashik College of Law,Law,BA LLB,Maharashtra,Nashik,Private,59.8,75000.0,3.8
+Nashik City College of Commerce,Commerce,B.Com,Maharashtra,Nashik,Private,69.0,35000.0,4.0
+Nashik Institute of Management,Commerce,BBA,Maharashtra,Nashik,Private,64.4,120000.0,4.2
+Nashik Arts & Science College,Arts,BA English,Maharashtra,Nashik,Government,55.2,15000.0,3.9
+Nashik Science Institute,Science,BSc Computer Science,Maharashtra,Nashik,Private,59.8,50000.0,3.9
+Government College of Engineering Aurangabad,Engineering,CSE,Maharashtra,Aurangabad,Government,82.8,85000.0,4.2
+Government College of Engineering Aurangabad,Engineering,Mechanical,Maharashtra,Aurangabad,Government,76.5,85000.0,4.0
+Aurangabad Institute of Technology (Tier 1),Engineering,CSE,Maharashtra,Aurangabad,Private,72.21419407899253,110000.0,4.2
+Aurangabad Institute of Technology (Tier 1),Engineering,ECE,Maharashtra,Aurangabad,Private,67.21419407899253,110000.0,4.2
+Aurangabad Institute of Technology (Tier 1),Engineering,Civil,Maharashtra,Aurangabad,Private,57.21419407899253,110000.0,4.2
+Aurangabad Institute of Technology (Tier 2),Engineering,CSE,Maharashtra,Aurangabad,Private,56.97074809838347,120000.0,3.9
+Aurangabad Institute of Technology (Tier 2),Engineering,ECE,Maharashtra,Aurangabad,Private,51.97074809838347,120000.0,3.9
+Aurangabad Institute of Technology (Tier 2),Engineering,Civil,Maharashtra,Aurangabad,Private,41.97074809838347,120000.0,3.9
+Aurangabad Institute of Technology (Tier 3),Engineering,CSE,Maharashtra,Aurangabad,Private,47.20447576288606,95000.0,3.6
+Aurangabad Institute of Technology (Tier 3),Engineering,ECE,Maharashtra,Aurangabad,Private,42.20447576288606,95000.0,3.6
+Aurangabad Institute of Technology (Tier 3),Engineering,Civil,Maharashtra,Aurangabad,Private,32.20447576288606,95000.0,3.6
+Aurangabad Institute of Technology (Tier 4),Engineering,CSE,Maharashtra,Aurangabad,Private,38.39676772782594,100000.0,3.3
+Aurangabad Institute of Technology (Tier 4),Engineering,ECE,Maharashtra,Aurangabad,Private,33.39676772782594,100000.0,3.3
+Aurangabad Institute of Technology (Tier 4),Engineering,Civil,Maharashtra,Aurangabad,Private,23.39676772782594,100000.0,3.3
+Aurangabad Institute of Technology (Tier 5),Engineering,CSE,Maharashtra,Aurangabad,Private,23.479650715598307,105000.0,3.0
+Aurangabad Institute of Technology (Tier 5),Engineering,ECE,Maharashtra,Aurangabad,Private,18.479650715598307,105000.0,3.0
+Aurangabad Institute of Technology (Tier 5),Engineering,Civil,Maharashtra,Aurangabad,Private,8.479650715598307,105000.0,3.0
+Government Medical College Aurangabad,Medical,MBBS,Maharashtra,Aurangabad,Government,83.7,120000.0,4.5
+Aurangabad Private Medical Institute,Medical,MBBS,Maharashtra,Aurangabad,Private,76.5,900000.0,4.1
+Aurangabad Ayurvedic College,Medical,BAMS,Maharashtra,Aurangabad,Private,63.0,300000.0,3.8
+Aurangabad Government Law College,Law,LLB,Maharashtra,Aurangabad,Government,72.0,25000.0,4.2
+Aurangabad College of Law,Law,BA LLB,Maharashtra,Aurangabad,Private,58.5,75000.0,3.8
+Aurangabad City College of Commerce,Commerce,B.Com,Maharashtra,Aurangabad,Private,67.5,35000.0,4.0
+Aurangabad Institute of Management,Commerce,BBA,Maharashtra,Aurangabad,Private,63.0,120000.0,4.2
+Aurangabad Arts & Science College,Arts,BA English,Maharashtra,Aurangabad,Government,54.0,15000.0,3.9
+Aurangabad Science Institute,Science,BSc Computer Science,Maharashtra,Aurangabad,Private,58.5,50000.0,3.9
+Government College of Engineering Amravati,Engineering,CSE,Maharashtra,Amravati,Government,80.96,85000.0,4.2
+Government College of Engineering Amravati,Engineering,Mechanical,Maharashtra,Amravati,Government,74.8,85000.0,4.0
+Amravati Institute of Technology (Tier 1),Engineering,CSE,Maharashtra,Amravati,Private,69.44744283118938,110000.0,4.2
+Amravati Institute of Technology (Tier 1),Engineering,ECE,Maharashtra,Amravati,Private,64.44744283118938,110000.0,4.2
+Amravati Institute of Technology (Tier 1),Engineering,Civil,Maharashtra,Amravati,Private,54.44744283118938,110000.0,4.2
+Amravati Institute of Technology (Tier 2),Engineering,CSE,Maharashtra,Amravati,Private,62.6188968483779,120000.0,3.9
+Amravati Institute of Technology (Tier 2),Engineering,ECE,Maharashtra,Amravati,Private,57.6188968483779,120000.0,3.9
+Amravati Institute of Technology (Tier 2),Engineering,Civil,Maharashtra,Amravati,Private,47.6188968483779,120000.0,3.9
+Amravati Institute of Technology (Tier 3),Engineering,CSE,Maharashtra,Amravati,Private,47.88362886007948,95000.0,3.6
+Amravati Institute of Technology (Tier 3),Engineering,ECE,Maharashtra,Amravati,Private,42.88362886007948,95000.0,3.6
+Amravati Institute of Technology (Tier 3),Engineering,Civil,Maharashtra,Amravati,Private,32.88362886007948,95000.0,3.6
+Amravati Institute of Technology (Tier 4),Engineering,CSE,Maharashtra,Amravati,Private,32.28862274838727,100000.0,3.3
+Amravati Institute of Technology (Tier 4),Engineering,ECE,Maharashtra,Amravati,Private,27.28862274838727,100000.0,3.3
+Amravati Institute of Technology (Tier 4),Engineering,Civil,Maharashtra,Amravati,Private,17.28862274838727,100000.0,3.3
+Amravati Institute of Technology (Tier 5),Engineering,CSE,Maharashtra,Amravati,Private,29.336154366133417,105000.0,3.0
+Amravati Institute of Technology (Tier 5),Engineering,ECE,Maharashtra,Amravati,Private,24.336154366133417,105000.0,3.0
+Amravati Institute of Technology (Tier 5),Engineering,Civil,Maharashtra,Amravati,Private,14.336154366133416,105000.0,3.0
+Government Medical College Amravati,Medical,MBBS,Maharashtra,Amravati,Government,81.84,120000.0,4.5
+Amravati Private Medical Institute,Medical,MBBS,Maharashtra,Amravati,Private,74.8,900000.0,4.1
+Amravati Ayurvedic College,Medical,BAMS,Maharashtra,Amravati,Private,61.6,300000.0,3.8
+Amravati Government Law College,Law,LLB,Maharashtra,Amravati,Government,70.4,25000.0,4.2
+Amravati College of Law,Law,BA LLB,Maharashtra,Amravati,Private,57.2,75000.0,3.8
+Amravati City College of Commerce,Commerce,B.Com,Maharashtra,Amravati,Private,66.0,35000.0,4.0
+Amravati Institute of Management,Commerce,BBA,Maharashtra,Amravati,Private,61.6,120000.0,4.2
+Amravati Arts & Science College,Arts,BA English,Maharashtra,Amravati,Government,52.8,15000.0,3.9
+Amravati Science Institute,Science,BSc Computer Science,Maharashtra,Amravati,Private,57.2,50000.0,3.9
+Government College of Engineering Kolhapur,Engineering,CSE,Maharashtra,Kolhapur,Government,80.96,85000.0,4.2
+Government College of Engineering Kolhapur,Engineering,Mechanical,Maharashtra,Kolhapur,Government,74.8,85000.0,4.0
+Kolhapur Institute of Technology (Tier 1),Engineering,CSE,Maharashtra,Kolhapur,Private,69.41766835085222,110000.0,4.2
+Kolhapur Institute of Technology (Tier 1),Engineering,ECE,Maharashtra,Kolhapur,Private,64.41766835085222,110000.0,4.2
+Kolhapur Institute of Technology (Tier 1),Engineering,Civil,Maharashtra,Kolhapur,Private,54.41766835085223,110000.0,4.2
+Kolhapur Institute of Technology (Tier 2),Engineering,CSE,Maharashtra,Kolhapur,Private,62.36624474605759,120000.0,3.9
+Kolhapur Institute of Technology (Tier 2),Engineering,ECE,Maharashtra,Kolhapur,Private,57.36624474605759,120000.0,3.9
+Kolhapur Institute of Technology (Tier 2),Engineering,Civil,Maharashtra,Kolhapur,Private,47.36624474605759,120000.0,3.9
+Kolhapur Institute of Technology (Tier 3),Engineering,CSE,Maharashtra,Kolhapur,Private,50.367034963055474,95000.0,3.6
+Kolhapur Institute of Technology (Tier 3),Engineering,ECE,Maharashtra,Kolhapur,Private,45.367034963055474,95000.0,3.6
+Kolhapur Institute of Technology (Tier 3),Engineering,Civil,Maharashtra,Kolhapur,Private,35.367034963055474,95000.0,3.6
+Kolhapur Institute of Technology (Tier 4),Engineering,CSE,Maharashtra,Kolhapur,Private,40.41011590076326,100000.0,3.3
+Kolhapur Institute of Technology (Tier 4),Engineering,ECE,Maharashtra,Kolhapur,Private,35.41011590076326,100000.0,3.3
+Kolhapur Institute of Technology (Tier 4),Engineering,Civil,Maharashtra,Kolhapur,Private,25.41011590076326,100000.0,3.3
+Kolhapur Institute of Technology (Tier 5),Engineering,CSE,Maharashtra,Kolhapur,Private,24.971867547133503,105000.0,3.0
+Kolhapur Institute of Technology (Tier 5),Engineering,ECE,Maharashtra,Kolhapur,Private,19.971867547133503,105000.0,3.0
+Kolhapur Institute of Technology (Tier 5),Engineering,Civil,Maharashtra,Kolhapur,Private,9.971867547133506,105000.0,3.0
+Government Medical College Kolhapur,Medical,MBBS,Maharashtra,Kolhapur,Government,81.84,120000.0,4.5
+Kolhapur Private Medical Institute,Medical,MBBS,Maharashtra,Kolhapur,Private,74.8,900000.0,4.1
+Kolhapur Ayurvedic College,Medical,BAMS,Maharashtra,Kolhapur,Private,61.6,300000.0,3.8
+Kolhapur Government Law College,Law,LLB,Maharashtra,Kolhapur,Government,70.4,25000.0,4.2
+Kolhapur College of Law,Law,BA LLB,Maharashtra,Kolhapur,Private,57.2,75000.0,3.8
+Kolhapur City College of Commerce,Commerce,B.Com,Maharashtra,Kolhapur,Private,66.0,35000.0,4.0
+Kolhapur Institute of Management,Commerce,BBA,Maharashtra,Kolhapur,Private,61.6,120000.0,4.2
+Kolhapur Arts & Science College,Arts,BA English,Maharashtra,Kolhapur,Government,52.8,15000.0,3.9
+Kolhapur Science Institute,Science,BSc Computer Science,Maharashtra,Kolhapur,Private,57.2,50000.0,3.9
+Government College of Engineering Solapur,Engineering,CSE,Maharashtra,Solapur,Government,78.2,85000.0,4.2
+Government College of Engineering Solapur,Engineering,Mechanical,Maharashtra,Solapur,Government,72.25,85000.0,4.0
+Solapur Institute of Technology (Tier 1),Engineering,CSE,Maharashtra,Solapur,Private,65.95026841040233,110000.0,4.2
+Solapur Institute of Technology (Tier 1),Engineering,ECE,Maharashtra,Solapur,Private,60.95026841040233,110000.0,4.2
+Solapur Institute of Technology (Tier 1),Engineering,Civil,Maharashtra,Solapur,Private,50.95026841040233,110000.0,4.2
+Solapur Institute of Technology (Tier 2),Engineering,CSE,Maharashtra,Solapur,Private,54.62138200007927,120000.0,3.9
+Solapur Institute of Technology (Tier 2),Engineering,ECE,Maharashtra,Solapur,Private,49.62138200007927,120000.0,3.9
+Solapur Institute of Technology (Tier 2),Engineering,Civil,Maharashtra,Solapur,Private,39.62138200007927,120000.0,3.9
+Solapur Institute of Technology (Tier 3),Engineering,CSE,Maharashtra,Solapur,Private,50.4900998624009,95000.0,3.6
+Solapur Institute of Technology (Tier 3),Engineering,ECE,Maharashtra,Solapur,Private,45.4900998624009,95000.0,3.6
+Solapur Institute of Technology (Tier 3),Engineering,Civil,Maharashtra,Solapur,Private,35.4900998624009,95000.0,3.6
+Solapur Institute of Technology (Tier 4),Engineering,CSE,Maharashtra,Solapur,Private,35.61153728047368,100000.0,3.3
+Solapur Institute of Technology (Tier 4),Engineering,ECE,Maharashtra,Solapur,Private,30.61153728047368,100000.0,3.3
+Solapur Institute of Technology (Tier 4),Engineering,Civil,Maharashtra,Solapur,Private,20.61153728047368,100000.0,3.3
+Solapur Institute of Technology (Tier 5),Engineering,CSE,Maharashtra,Solapur,Private,24.073933738129583,105000.0,3.0
+Solapur Institute of Technology (Tier 5),Engineering,ECE,Maharashtra,Solapur,Private,19.073933738129583,105000.0,3.0
+Solapur Institute of Technology (Tier 5),Engineering,Civil,Maharashtra,Solapur,Private,9.073933738129584,105000.0,3.0
+Government Medical College Solapur,Medical,MBBS,Maharashtra,Solapur,Government,79.05,120000.0,4.5
+Solapur Private Medical Institute,Medical,MBBS,Maharashtra,Solapur,Private,72.25,900000.0,4.1
+Solapur Ayurvedic College,Medical,BAMS,Maharashtra,Solapur,Private,59.5,300000.0,3.8
+Solapur Government Law College,Law,LLB,Maharashtra,Solapur,Government,68.0,25000.0,4.2
+Solapur College of Law,Law,BA LLB,Maharashtra,Solapur,Private,55.25,75000.0,3.8
+Solapur City College of Commerce,Commerce,B.Com,Maharashtra,Solapur,Private,63.75,35000.0,4.0
+Solapur Institute of Management,Commerce,BBA,Maharashtra,Solapur,Private,59.5,120000.0,4.2
+Solapur Arts & Science College,Arts,BA English,Maharashtra,Solapur,Government,51.0,15000.0,3.9
+Solapur Science Institute,Science,BSc Computer Science,Maharashtra,Solapur,Private,55.25,50000.0,3.9
+Government College of Engineering Jalgaon,Engineering,CSE,Maharashtra,Jalgaon,Government,78.2,85000.0,4.2
+Government College of Engineering Jalgaon,Engineering,Mechanical,Maharashtra,Jalgaon,Government,72.25,85000.0,4.0
+Jalgaon Institute of Technology (Tier 1),Engineering,CSE,Maharashtra,Jalgaon,Private,63.20410960019852,110000.0,4.2
+Jalgaon Institute of Technology (Tier 1),Engineering,ECE,Maharashtra,Jalgaon,Private,58.20410960019852,110000.0,4.2
+Jalgaon Institute of Technology (Tier 1),Engineering,Civil,Maharashtra,Jalgaon,Private,48.20410960019852,110000.0,4.2
+Jalgaon Institute of Technology (Tier 2),Engineering,CSE,Maharashtra,Jalgaon,Private,55.11059489273351,120000.0,3.9
+Jalgaon Institute of Technology (Tier 2),Engineering,ECE,Maharashtra,Jalgaon,Private,50.11059489273351,120000.0,3.9
+Jalgaon Institute of Technology (Tier 2),Engineering,Civil,Maharashtra,Jalgaon,Private,40.11059489273351,120000.0,3.9
+Jalgaon Institute of Technology (Tier 3),Engineering,CSE,Maharashtra,Jalgaon,Private,42.35259936635083,95000.0,3.6
+Jalgaon Institute of Technology (Tier 3),Engineering,ECE,Maharashtra,Jalgaon,Private,37.35259936635083,95000.0,3.6
+Jalgaon Institute of Technology (Tier 3),Engineering,Civil,Maharashtra,Jalgaon,Private,27.35259936635083,95000.0,3.6
+Jalgaon Institute of Technology (Tier 4),Engineering,CSE,Maharashtra,Jalgaon,Private,35.63886357440664,100000.0,3.3
+Jalgaon Institute of Technology (Tier 4),Engineering,ECE,Maharashtra,Jalgaon,Private,30.63886357440664,100000.0,3.3
+Jalgaon Institute of Technology (Tier 4),Engineering,Civil,Maharashtra,Jalgaon,Private,20.63886357440664,100000.0,3.3
+Jalgaon Institute of Technology (Tier 5),Engineering,CSE,Maharashtra,Jalgaon,Private,22.459094812701856,105000.0,3.0
+Jalgaon Institute of Technology (Tier 5),Engineering,ECE,Maharashtra,Jalgaon,Private,17.459094812701856,105000.0,3.0
+Jalgaon Institute of Technology (Tier 5),Engineering,Civil,Maharashtra,Jalgaon,Private,7.459094812701856,105000.0,3.0
+Government Medical College Jalgaon,Medical,MBBS,Maharashtra,Jalgaon,Government,79.05,120000.0,4.5
+Jalgaon Private Medical Institute,Medical,MBBS,Maharashtra,Jalgaon,Private,72.25,900000.0,4.1
+Jalgaon Ayurvedic College,Medical,BAMS,Maharashtra,Jalgaon,Private,59.5,300000.0,3.8
+Jalgaon Government Law College,Law,LLB,Maharashtra,Jalgaon,Government,68.0,25000.0,4.2
+Jalgaon College of Law,Law,BA LLB,Maharashtra,Jalgaon,Private,55.25,75000.0,3.8
+Jalgaon City College of Commerce,Commerce,B.Com,Maharashtra,Jalgaon,Private,63.75,35000.0,4.0
+Jalgaon Institute of Management,Commerce,BBA,Maharashtra,Jalgaon,Private,59.5,120000.0,4.2
+Jalgaon Arts & Science College,Arts,BA English,Maharashtra,Jalgaon,Government,51.0,15000.0,3.9
+Jalgaon Science Institute,Science,BSc Computer Science,Maharashtra,Jalgaon,Private,55.25,50000.0,3.9
+Government College of Engineering Nanded,Engineering,CSE,Maharashtra,Nanded,Government,77.28,85000.0,4.2
+Government College of Engineering Nanded,Engineering,Mechanical,Maharashtra,Nanded,Government,71.39999999999999,85000.0,4.0
+Nanded Institute of Technology (Tier 1),Engineering,CSE,Maharashtra,Nanded,Private,67.85361586471276,110000.0,4.2
+Nanded Institute of Technology (Tier 1),Engineering,ECE,Maharashtra,Nanded,Private,62.853615864712765,110000.0,4.2
+Nanded Institute of Technology (Tier 1),Engineering,Civil,Maharashtra,Nanded,Private,52.853615864712765,110000.0,4.2
+Nanded Institute of Technology (Tier 2),Engineering,CSE,Maharashtra,Nanded,Private,53.1847632012112,120000.0,3.9
+Nanded Institute of Technology (Tier 2),Engineering,ECE,Maharashtra,Nanded,Private,48.1847632012112,120000.0,3.9
+Nanded Institute of Technology (Tier 2),Engineering,Civil,Maharashtra,Nanded,Private,38.1847632012112,120000.0,3.9
+Nanded Institute of Technology (Tier 3),Engineering,CSE,Maharashtra,Nanded,Private,42.1276489956519,95000.0,3.6
+Nanded Institute of Technology (Tier 3),Engineering,ECE,Maharashtra,Nanded,Private,37.1276489956519,95000.0,3.6
+Nanded Institute of Technology (Tier 3),Engineering,Civil,Maharashtra,Nanded,Private,27.127648995651903,95000.0,3.6
+Nanded Institute of Technology (Tier 4),Engineering,CSE,Maharashtra,Nanded,Private,30.368961033803245,100000.0,3.3
+Nanded Institute of Technology (Tier 4),Engineering,ECE,Maharashtra,Nanded,Private,25.368961033803245,100000.0,3.3
+Nanded Institute of Technology (Tier 4),Engineering,Civil,Maharashtra,Nanded,Private,15.368961033803243,100000.0,3.3
+Nanded Institute of Technology (Tier 5),Engineering,CSE,Maharashtra,Nanded,Private,21.63730310933073,105000.0,3.0
+Nanded Institute of Technology (Tier 5),Engineering,ECE,Maharashtra,Nanded,Private,16.63730310933073,105000.0,3.0
+Nanded Institute of Technology (Tier 5),Engineering,Civil,Maharashtra,Nanded,Private,6.63730310933073,105000.0,3.0
+Government Medical College Nanded,Medical,MBBS,Maharashtra,Nanded,Government,78.11999999999999,120000.0,4.5
+Nanded Private Medical Institute,Medical,MBBS,Maharashtra,Nanded,Private,71.39999999999999,900000.0,4.1
+Nanded Ayurvedic College,Medical,BAMS,Maharashtra,Nanded,Private,58.8,300000.0,3.8
+Nanded Government Law College,Law,LLB,Maharashtra,Nanded,Government,67.2,25000.0,4.2
+Nanded College of Law,Law,BA LLB,Maharashtra,Nanded,Private,54.6,75000.0,3.8
+Nanded City College of Commerce,Commerce,B.Com,Maharashtra,Nanded,Private,63.0,35000.0,4.0
+Nanded Institute of Management,Commerce,BBA,Maharashtra,Nanded,Private,58.8,120000.0,4.2
+Nanded Arts & Science College,Arts,BA English,Maharashtra,Nanded,Government,50.4,15000.0,3.9
+Nanded Science Institute,Science,BSc Computer Science,Maharashtra,Nanded,Private,54.6,50000.0,3.9
+Government College of Engineering Latur,Engineering,CSE,Maharashtra,Latur,Government,75.44,85000.0,4.2
+Government College of Engineering Latur,Engineering,Mechanical,Maharashtra,Latur,Government,69.7,85000.0,4.0
+Latur Institute of Technology (Tier 1),Engineering,CSE,Maharashtra,Latur,Private,62.9263774193765,110000.0,4.2
+Latur Institute of Technology (Tier 1),Engineering,ECE,Maharashtra,Latur,Private,57.9263774193765,110000.0,4.2
+Latur Institute of Technology (Tier 1),Engineering,Civil,Maharashtra,Latur,Private,47.9263774193765,110000.0,4.2
+Latur Institute of Technology (Tier 2),Engineering,CSE,Maharashtra,Latur,Private,57.86985851929698,120000.0,3.9
+Latur Institute of Technology (Tier 2),Engineering,ECE,Maharashtra,Latur,Private,52.86985851929698,120000.0,3.9
+Latur Institute of Technology (Tier 2),Engineering,Civil,Maharashtra,Latur,Private,42.86985851929698,120000.0,3.9
+Latur Institute of Technology (Tier 3),Engineering,CSE,Maharashtra,Latur,Private,47.39782961723435,95000.0,3.6
+Latur Institute of Technology (Tier 3),Engineering,ECE,Maharashtra,Latur,Private,42.39782961723435,95000.0,3.6
+Latur Institute of Technology (Tier 3),Engineering,Civil,Maharashtra,Latur,Private,32.39782961723435,95000.0,3.6
+Latur Institute of Technology (Tier 4),Engineering,CSE,Maharashtra,Latur,Private,35.903394174060814,100000.0,3.3
+Latur Institute of Technology (Tier 4),Engineering,ECE,Maharashtra,Latur,Private,30.90339417406081,100000.0,3.3
+Latur Institute of Technology (Tier 4),Engineering,Civil,Maharashtra,Latur,Private,20.90339417406081,100000.0,3.3
+Latur Institute of Technology (Tier 5),Engineering,CSE,Maharashtra,Latur,Private,29.174414711852084,105000.0,3.0
+Latur Institute of Technology (Tier 5),Engineering,ECE,Maharashtra,Latur,Private,24.174414711852084,105000.0,3.0
+Latur Institute of Technology (Tier 5),Engineering,Civil,Maharashtra,Latur,Private,14.174414711852084,105000.0,3.0
+Government Medical College Latur,Medical,MBBS,Maharashtra,Latur,Government,76.25999999999999,120000.0,4.5
+Latur Private Medical Institute,Medical,MBBS,Maharashtra,Latur,Private,69.7,900000.0,4.1
+Latur Ayurvedic College,Medical,BAMS,Maharashtra,Latur,Private,57.4,300000.0,3.8
+Latur Government Law College,Law,LLB,Maharashtra,Latur,Government,65.6,25000.0,4.2
+Latur College of Law,Law,BA LLB,Maharashtra,Latur,Private,53.3,75000.0,3.8
+Latur City College of Commerce,Commerce,B.Com,Maharashtra,Latur,Private,61.49999999999999,35000.0,4.0
+Latur Institute of Management,Commerce,BBA,Maharashtra,Latur,Private,57.4,120000.0,4.2
+Latur Arts & Science College,Arts,BA English,Maharashtra,Latur,Government,49.2,15000.0,3.9
+Latur Science Institute,Science,BSc Computer Science,Maharashtra,Latur,Private,53.3,50000.0,3.9
+Government College of Engineering Akola,Engineering,CSE,Maharashtra,Akola,Government,73.60000000000001,85000.0,4.2
+Government College of Engineering Akola,Engineering,Mechanical,Maharashtra,Akola,Government,68.0,85000.0,4.0
+Akola Institute of Technology (Tier 1),Engineering,CSE,Maharashtra,Akola,Private,58.66833592005202,110000.0,4.2
+Akola Institute of Technology (Tier 1),Engineering,ECE,Maharashtra,Akola,Private,53.66833592005202,110000.0,4.2
+Akola Institute of Technology (Tier 1),Engineering,Civil,Maharashtra,Akola,Private,43.66833592005202,110000.0,4.2
+Akola Institute of Technology (Tier 2),Engineering,CSE,Maharashtra,Akola,Private,56.71917114731769,120000.0,3.9
+Akola Institute of Technology (Tier 2),Engineering,ECE,Maharashtra,Akola,Private,51.71917114731769,120000.0,3.9
+Akola Institute of Technology (Tier 2),Engineering,Civil,Maharashtra,Akola,Private,41.71917114731769,120000.0,3.9
+Akola Institute of Technology (Tier 3),Engineering,CSE,Maharashtra,Akola,Private,46.82747762774401,95000.0,3.6
+Akola Institute of Technology (Tier 3),Engineering,ECE,Maharashtra,Akola,Private,41.82747762774401,95000.0,3.6
+Akola Institute of Technology (Tier 3),Engineering,Civil,Maharashtra,Akola,Private,31.82747762774401,95000.0,3.6
+Akola Institute of Technology (Tier 4),Engineering,CSE,Maharashtra,Akola,Private,32.93874771444484,100000.0,3.3
+Akola Institute of Technology (Tier 4),Engineering,ECE,Maharashtra,Akola,Private,27.93874771444484,100000.0,3.3
+Akola Institute of Technology (Tier 4),Engineering,Civil,Maharashtra,Akola,Private,17.938747714444837,100000.0,3.3
+Akola Institute of Technology (Tier 5),Engineering,CSE,Maharashtra,Akola,Private,24.847056156041138,105000.0,3.0
+Akola Institute of Technology (Tier 5),Engineering,ECE,Maharashtra,Akola,Private,19.847056156041138,105000.0,3.0
+Akola Institute of Technology (Tier 5),Engineering,Civil,Maharashtra,Akola,Private,9.847056156041138,105000.0,3.0
+Government Medical College Akola,Medical,MBBS,Maharashtra,Akola,Government,74.4,120000.0,4.5
+Akola Private Medical Institute,Medical,MBBS,Maharashtra,Akola,Private,68.0,900000.0,4.1
+Akola Ayurvedic College,Medical,BAMS,Maharashtra,Akola,Private,56.0,300000.0,3.8
+Akola Government Law College,Law,LLB,Maharashtra,Akola,Government,64.0,25000.0,4.2
+Akola College of Law,Law,BA LLB,Maharashtra,Akola,Private,52.0,75000.0,3.8
+Akola City College of Commerce,Commerce,B.Com,Maharashtra,Akola,Private,60.0,35000.0,4.0
+Akola Institute of Management,Commerce,BBA,Maharashtra,Akola,Private,56.0,120000.0,4.2
+Akola Arts & Science College,Arts,BA English,Maharashtra,Akola,Government,48.0,15000.0,3.9
+Akola Science Institute,Science,BSc Computer Science,Maharashtra,Akola,Private,52.0,50000.0,3.9
+Government College of Engineering Dhule,Engineering,CSE,Maharashtra,Dhule,Government,71.76,85000.0,4.2
+Government College of Engineering Dhule,Engineering,Mechanical,Maharashtra,Dhule,Government,66.3,85000.0,4.0
+Dhule Institute of Technology (Tier 1),Engineering,CSE,Maharashtra,Dhule,Private,64.74854337290834,110000.0,4.2
+Dhule Institute of Technology (Tier 1),Engineering,ECE,Maharashtra,Dhule,Private,59.74854337290834,110000.0,4.2
+Dhule Institute of Technology (Tier 1),Engineering,Civil,Maharashtra,Dhule,Private,49.74854337290834,110000.0,4.2
+Dhule Institute of Technology (Tier 2),Engineering,CSE,Maharashtra,Dhule,Private,52.74754774628568,120000.0,3.9
+Dhule Institute of Technology (Tier 2),Engineering,ECE,Maharashtra,Dhule,Private,47.74754774628568,120000.0,3.9
+Dhule Institute of Technology (Tier 2),Engineering,Civil,Maharashtra,Dhule,Private,37.74754774628568,120000.0,3.9
+Dhule Institute of Technology (Tier 3),Engineering,CSE,Maharashtra,Dhule,Private,45.28203597234817,95000.0,3.6
+Dhule Institute of Technology (Tier 3),Engineering,ECE,Maharashtra,Dhule,Private,40.28203597234817,95000.0,3.6
+Dhule Institute of Technology (Tier 3),Engineering,Civil,Maharashtra,Dhule,Private,30.28203597234817,95000.0,3.6
+Dhule Institute of Technology (Tier 4),Engineering,CSE,Maharashtra,Dhule,Private,36.09428426027536,100000.0,3.3
+Dhule Institute of Technology (Tier 4),Engineering,ECE,Maharashtra,Dhule,Private,31.09428426027536,100000.0,3.3
+Dhule Institute of Technology (Tier 4),Engineering,Civil,Maharashtra,Dhule,Private,21.09428426027536,100000.0,3.3
+Dhule Institute of Technology (Tier 5),Engineering,CSE,Maharashtra,Dhule,Private,23.92170874535601,105000.0,3.0
+Dhule Institute of Technology (Tier 5),Engineering,ECE,Maharashtra,Dhule,Private,18.92170874535601,105000.0,3.0
+Dhule Institute of Technology (Tier 5),Engineering,Civil,Maharashtra,Dhule,Private,8.921708745356014,105000.0,3.0
+Government Medical College Dhule,Medical,MBBS,Maharashtra,Dhule,Government,72.54,120000.0,4.5
+Dhule Private Medical Institute,Medical,MBBS,Maharashtra,Dhule,Private,66.3,900000.0,4.1
+Dhule Ayurvedic College,Medical,BAMS,Maharashtra,Dhule,Private,54.6,300000.0,3.8
+Dhule Government Law College,Law,LLB,Maharashtra,Dhule,Government,62.400000000000006,25000.0,4.2
+Dhule College of Law,Law,BA LLB,Maharashtra,Dhule,Private,50.7,75000.0,3.8
+Dhule City College of Commerce,Commerce,B.Com,Maharashtra,Dhule,Private,58.5,35000.0,4.0
+Dhule Institute of Management,Commerce,BBA,Maharashtra,Dhule,Private,54.6,120000.0,4.2
+Dhule Arts & Science College,Arts,BA English,Maharashtra,Dhule,Government,46.8,15000.0,3.9
+Dhule Science Institute,Science,BSc Computer Science,Maharashtra,Dhule,Private,50.7,50000.0,3.9
+Government College of Engineering Ahmednagar,Engineering,CSE,Maharashtra,Ahmednagar,Government,73.60000000000001,85000.0,4.2
+Government College of Engineering Ahmednagar,Engineering,Mechanical,Maharashtra,Ahmednagar,Government,68.0,85000.0,4.0
+Ahmednagar Institute of Technology (Tier 1),Engineering,CSE,Maharashtra,Ahmednagar,Private,60.4179593266693,110000.0,4.2
+Ahmednagar Institute of Technology (Tier 1),Engineering,ECE,Maharashtra,Ahmednagar,Private,55.4179593266693,110000.0,4.2
+Ahmednagar Institute of Technology (Tier 1),Engineering,Civil,Maharashtra,Ahmednagar,Private,45.4179593266693,110000.0,4.2
+Ahmednagar Institute of Technology (Tier 2),Engineering,CSE,Maharashtra,Ahmednagar,Private,54.134346829518,120000.0,3.9
+Ahmednagar Institute of Technology (Tier 2),Engineering,ECE,Maharashtra,Ahmednagar,Private,49.134346829518,120000.0,3.9
+Ahmednagar Institute of Technology (Tier 2),Engineering,Civil,Maharashtra,Ahmednagar,Private,39.134346829518,120000.0,3.9
+Ahmednagar Institute of Technology (Tier 3),Engineering,CSE,Maharashtra,Ahmednagar,Private,44.62185301925261,95000.0,3.6
+Ahmednagar Institute of Technology (Tier 3),Engineering,ECE,Maharashtra,Ahmednagar,Private,39.62185301925261,95000.0,3.6
+Ahmednagar Institute of Technology (Tier 3),Engineering,Civil,Maharashtra,Ahmednagar,Private,29.62185301925261,95000.0,3.6
+Ahmednagar Institute of Technology (Tier 4),Engineering,CSE,Maharashtra,Ahmednagar,Private,37.099332652258624,100000.0,3.3
+Ahmednagar Institute of Technology (Tier 4),Engineering,ECE,Maharashtra,Ahmednagar,Private,32.099332652258624,100000.0,3.3
+Ahmednagar Institute of Technology (Tier 4),Engineering,Civil,Maharashtra,Ahmednagar,Private,22.099332652258624,100000.0,3.3
+Ahmednagar Institute of Technology (Tier 5),Engineering,CSE,Maharashtra,Ahmednagar,Private,25.46249901470373,105000.0,3.0
+Ahmednagar Institute of Technology (Tier 5),Engineering,ECE,Maharashtra,Ahmednagar,Private,20.46249901470373,105000.0,3.0
+Ahmednagar Institute of Technology (Tier 5),Engineering,Civil,Maharashtra,Ahmednagar,Private,10.462499014703738,105000.0,3.0
+Government Medical College Ahmednagar,Medical,MBBS,Maharashtra,Ahmednagar,Government,74.4,120000.0,4.5
+Ahmednagar Private Medical Institute,Medical,MBBS,Maharashtra,Ahmednagar,Private,68.0,900000.0,4.1
+Ahmednagar Ayurvedic College,Medical,BAMS,Maharashtra,Ahmednagar,Private,56.0,300000.0,3.8
+Ahmednagar Government Law College,Law,LLB,Maharashtra,Ahmednagar,Government,64.0,25000.0,4.2
+Ahmednagar College of Law,Law,BA LLB,Maharashtra,Ahmednagar,Private,52.0,75000.0,3.8
+Ahmednagar City College of Commerce,Commerce,B.Com,Maharashtra,Ahmednagar,Private,60.0,35000.0,4.0
+Ahmednagar Institute of Management,Commerce,BBA,Maharashtra,Ahmednagar,Private,56.0,120000.0,4.2
+Ahmednagar Arts & Science College,Arts,BA English,Maharashtra,Ahmednagar,Government,48.0,15000.0,3.9
+Ahmednagar Science Institute,Science,BSc Computer Science,Maharashtra,Ahmednagar,Private,52.0,50000.0,3.9
+Government College of Engineering Satara,Engineering,CSE,Maharashtra,Satara,Government,75.44,85000.0,4.2
+Government College of Engineering Satara,Engineering,Mechanical,Maharashtra,Satara,Government,69.7,85000.0,4.0
+Satara Institute of Technology (Tier 1),Engineering,CSE,Maharashtra,Satara,Private,68.70642200831992,110000.0,4.2
+Satara Institute of Technology (Tier 1),Engineering,ECE,Maharashtra,Satara,Private,63.70642200831992,110000.0,4.2
+Satara Institute of Technology (Tier 1),Engineering,Civil,Maharashtra,Satara,Private,53.70642200831992,110000.0,4.2
+Satara Institute of Technology (Tier 2),Engineering,CSE,Maharashtra,Satara,Private,54.81352799587967,120000.0,3.9
+Satara Institute of Technology (Tier 2),Engineering,ECE,Maharashtra,Satara,Private,49.81352799587967,120000.0,3.9
+Satara Institute of Technology (Tier 2),Engineering,Civil,Maharashtra,Satara,Private,39.81352799587967,120000.0,3.9
+Satara Institute of Technology (Tier 3),Engineering,CSE,Maharashtra,Satara,Private,41.08356846173018,95000.0,3.6
+Satara Institute of Technology (Tier 3),Engineering,ECE,Maharashtra,Satara,Private,36.08356846173018,95000.0,3.6
+Satara Institute of Technology (Tier 3),Engineering,Civil,Maharashtra,Satara,Private,26.08356846173018,95000.0,3.6
+Satara Institute of Technology (Tier 4),Engineering,CSE,Maharashtra,Satara,Private,35.37216416815832,100000.0,3.3
+Satara Institute of Technology (Tier 4),Engineering,ECE,Maharashtra,Satara,Private,30.37216416815832,100000.0,3.3
+Satara Institute of Technology (Tier 4),Engineering,Civil,Maharashtra,Satara,Private,20.37216416815832,100000.0,3.3
+Satara Institute of Technology (Tier 5),Engineering,CSE,Maharashtra,Satara,Private,23.5771126893798,105000.0,3.0
+Satara Institute of Technology (Tier 5),Engineering,ECE,Maharashtra,Satara,Private,18.5771126893798,105000.0,3.0
+Satara Institute of Technology (Tier 5),Engineering,Civil,Maharashtra,Satara,Private,8.577112689379796,105000.0,3.0
+Government Medical College Satara,Medical,MBBS,Maharashtra,Satara,Government,76.25999999999999,120000.0,4.5
+Satara Private Medical Institute,Medical,MBBS,Maharashtra,Satara,Private,69.7,900000.0,4.1
+Satara Ayurvedic College,Medical,BAMS,Maharashtra,Satara,Private,57.4,300000.0,3.8
+Satara Government Law College,Law,LLB,Maharashtra,Satara,Government,65.6,25000.0,4.2
+Satara College of Law,Law,BA LLB,Maharashtra,Satara,Private,53.3,75000.0,3.8
+Satara City College of Commerce,Commerce,B.Com,Maharashtra,Satara,Private,61.49999999999999,35000.0,4.0
+Satara Institute of Management,Commerce,BBA,Maharashtra,Satara,Private,57.4,120000.0,4.2
+Satara Arts & Science College,Arts,BA English,Maharashtra,Satara,Government,49.2,15000.0,3.9
+Satara Science Institute,Science,BSc Computer Science,Maharashtra,Satara,Private,53.3,50000.0,3.9
+Government College of Engineering Sangli,Engineering,CSE,Maharashtra,Sangli,Government,78.2,85000.0,4.2
+Government College of Engineering Sangli,Engineering,Mechanical,Maharashtra,Sangli,Government,72.25,85000.0,4.0
+Sangli Institute of Technology (Tier 1),Engineering,CSE,Maharashtra,Sangli,Private,68.14653499353516,110000.0,4.2
+Sangli Institute of Technology (Tier 1),Engineering,ECE,Maharashtra,Sangli,Private,63.14653499353516,110000.0,4.2
+Sangli Institute of Technology (Tier 1),Engineering,Civil,Maharashtra,Sangli,Private,53.14653499353516,110000.0,4.2
+Sangli Institute of Technology (Tier 2),Engineering,CSE,Maharashtra,Sangli,Private,51.57404141797098,120000.0,3.9
+Sangli Institute of Technology (Tier 2),Engineering,ECE,Maharashtra,Sangli,Private,46.57404141797098,120000.0,3.9
+Sangli Institute of Technology (Tier 2),Engineering,Civil,Maharashtra,Sangli,Private,36.57404141797098,120000.0,3.9
+Sangli Institute of Technology (Tier 3),Engineering,CSE,Maharashtra,Sangli,Private,50.67065456063423,95000.0,3.6
+Sangli Institute of Technology (Tier 3),Engineering,ECE,Maharashtra,Sangli,Private,45.67065456063423,95000.0,3.6
+Sangli Institute of Technology (Tier 3),Engineering,Civil,Maharashtra,Sangli,Private,35.670654560634226,95000.0,3.6
+Sangli Institute of Technology (Tier 4),Engineering,CSE,Maharashtra,Sangli,Private,31.45619308672304,100000.0,3.3
+Sangli Institute of Technology (Tier 4),Engineering,ECE,Maharashtra,Sangli,Private,26.45619308672304,100000.0,3.3
+Sangli Institute of Technology (Tier 4),Engineering,Civil,Maharashtra,Sangli,Private,16.456193086723037,100000.0,3.3
+Sangli Institute of Technology (Tier 5),Engineering,CSE,Maharashtra,Sangli,Private,20.533658086656903,105000.0,3.0
+Sangli Institute of Technology (Tier 5),Engineering,ECE,Maharashtra,Sangli,Private,15.533658086656905,105000.0,3.0
+Sangli Institute of Technology (Tier 5),Engineering,Civil,Maharashtra,Sangli,Private,5.533658086656903,105000.0,3.0
+Government Medical College Sangli,Medical,MBBS,Maharashtra,Sangli,Government,79.05,120000.0,4.5
+Sangli Private Medical Institute,Medical,MBBS,Maharashtra,Sangli,Private,72.25,900000.0,4.1
+Sangli Ayurvedic College,Medical,BAMS,Maharashtra,Sangli,Private,59.5,300000.0,3.8
+Sangli Government Law College,Law,LLB,Maharashtra,Sangli,Government,68.0,25000.0,4.2
+Sangli College of Law,Law,BA LLB,Maharashtra,Sangli,Private,55.25,75000.0,3.8
+Sangli City College of Commerce,Commerce,B.Com,Maharashtra,Sangli,Private,63.75,35000.0,4.0
+Sangli Institute of Management,Commerce,BBA,Maharashtra,Sangli,Private,59.5,120000.0,4.2
+Sangli Arts & Science College,Arts,BA English,Maharashtra,Sangli,Government,51.0,15000.0,3.9
+Sangli Science Institute,Science,BSc Computer Science,Maharashtra,Sangli,Private,55.25,50000.0,3.9
+Government College of Engineering Ratnagiri,Engineering,CSE,Maharashtra,Ratnagiri,Government,69.0,85000.0,4.2
+Government College of Engineering Ratnagiri,Engineering,Mechanical,Maharashtra,Ratnagiri,Government,63.75,85000.0,4.0
+Ratnagiri Institute of Technology (Tier 1),Engineering,CSE,Maharashtra,Ratnagiri,Private,54.11296225311102,110000.0,4.2
+Ratnagiri Institute of Technology (Tier 1),Engineering,ECE,Maharashtra,Ratnagiri,Private,49.11296225311102,110000.0,4.2
+Ratnagiri Institute of Technology (Tier 1),Engineering,Civil,Maharashtra,Ratnagiri,Private,39.11296225311102,110000.0,4.2
+Ratnagiri Institute of Technology (Tier 2),Engineering,CSE,Maharashtra,Ratnagiri,Private,50.32621339880471,120000.0,3.9
+Ratnagiri Institute of Technology (Tier 2),Engineering,ECE,Maharashtra,Ratnagiri,Private,45.32621339880471,120000.0,3.9
+Ratnagiri Institute of Technology (Tier 2),Engineering,Civil,Maharashtra,Ratnagiri,Private,35.32621339880471,120000.0,3.9
+Ratnagiri Institute of Technology (Tier 3),Engineering,CSE,Maharashtra,Ratnagiri,Private,37.50843729104855,95000.0,3.6
+Ratnagiri Institute of Technology (Tier 3),Engineering,ECE,Maharashtra,Ratnagiri,Private,32.50843729104855,95000.0,3.6
+Ratnagiri Institute of Technology (Tier 3),Engineering,Civil,Maharashtra,Ratnagiri,Private,22.50843729104855,95000.0,3.6
+Ratnagiri Institute of Technology (Tier 4),Engineering,CSE,Maharashtra,Ratnagiri,Private,34.77915751908902,100000.0,3.3
+Ratnagiri Institute of Technology (Tier 4),Engineering,ECE,Maharashtra,Ratnagiri,Private,29.77915751908902,100000.0,3.3
+Ratnagiri Institute of Technology (Tier 4),Engineering,Civil,Maharashtra,Ratnagiri,Private,19.77915751908902,100000.0,3.3
+Ratnagiri Institute of Technology (Tier 5),Engineering,CSE,Maharashtra,Ratnagiri,Private,22.52244150017433,105000.0,3.0
+Ratnagiri Institute of Technology (Tier 5),Engineering,ECE,Maharashtra,Ratnagiri,Private,17.52244150017433,105000.0,3.0
+Ratnagiri Institute of Technology (Tier 5),Engineering,Civil,Maharashtra,Ratnagiri,Private,7.522441500174331,105000.0,3.0
+Government Medical College Ratnagiri,Medical,MBBS,Maharashtra,Ratnagiri,Government,69.75,120000.0,4.5
+Ratnagiri Private Medical Institute,Medical,MBBS,Maharashtra,Ratnagiri,Private,63.75,900000.0,4.1
+Ratnagiri Ayurvedic College,Medical,BAMS,Maharashtra,Ratnagiri,Private,52.5,300000.0,3.8
+Ratnagiri Government Law College,Law,LLB,Maharashtra,Ratnagiri,Government,60.0,25000.0,4.2
+Ratnagiri College of Law,Law,BA LLB,Maharashtra,Ratnagiri,Private,48.75,75000.0,3.8
+Ratnagiri City College of Commerce,Commerce,B.Com,Maharashtra,Ratnagiri,Private,56.25,35000.0,4.0
+Ratnagiri Institute of Management,Commerce,BBA,Maharashtra,Ratnagiri,Private,52.5,120000.0,4.2
+Ratnagiri Arts & Science College,Arts,BA English,Maharashtra,Ratnagiri,Government,45.0,15000.0,3.9
+Ratnagiri Science Institute,Science,BSc Computer Science,Maharashtra,Ratnagiri,Private,48.75,50000.0,3.9
+Government College of Engineering Chandrapur,Engineering,CSE,Maharashtra,Chandrapur,Government,69.0,85000.0,4.2
+Government College of Engineering Chandrapur,Engineering,Mechanical,Maharashtra,Chandrapur,Government,63.75,85000.0,4.0
+Chandrapur Institute of Technology (Tier 1),Engineering,CSE,Maharashtra,Chandrapur,Private,57.02935195952836,110000.0,4.2
+Chandrapur Institute of Technology (Tier 1),Engineering,ECE,Maharashtra,Chandrapur,Private,52.02935195952836,110000.0,4.2
+Chandrapur Institute of Technology (Tier 1),Engineering,Civil,Maharashtra,Chandrapur,Private,42.02935195952836,110000.0,4.2
+Chandrapur Institute of Technology (Tier 2),Engineering,CSE,Maharashtra,Chandrapur,Private,54.01279068806896,120000.0,3.9
+Chandrapur Institute of Technology (Tier 2),Engineering,ECE,Maharashtra,Chandrapur,Private,49.01279068806896,120000.0,3.9
+Chandrapur Institute of Technology (Tier 2),Engineering,Civil,Maharashtra,Chandrapur,Private,39.01279068806896,120000.0,3.9
+Chandrapur Institute of Technology (Tier 3),Engineering,CSE,Maharashtra,Chandrapur,Private,38.76638952125735,95000.0,3.6
+Chandrapur Institute of Technology (Tier 3),Engineering,ECE,Maharashtra,Chandrapur,Private,33.766389521257345,95000.0,3.6
+Chandrapur Institute of Technology (Tier 3),Engineering,Civil,Maharashtra,Chandrapur,Private,23.766389521257345,95000.0,3.6
+Chandrapur Institute of Technology (Tier 4),Engineering,CSE,Maharashtra,Chandrapur,Private,33.29742558445369,100000.0,3.3
+Chandrapur Institute of Technology (Tier 4),Engineering,ECE,Maharashtra,Chandrapur,Private,28.29742558445369,100000.0,3.3
+Chandrapur Institute of Technology (Tier 4),Engineering,Civil,Maharashtra,Chandrapur,Private,18.29742558445369,100000.0,3.3
+Chandrapur Institute of Technology (Tier 5),Engineering,CSE,Maharashtra,Chandrapur,Private,19.259737921398965,105000.0,3.0
+Chandrapur Institute of Technology (Tier 5),Engineering,ECE,Maharashtra,Chandrapur,Private,14.259737921398964,105000.0,3.0
+Chandrapur Institute of Technology (Tier 5),Engineering,Civil,Maharashtra,Chandrapur,Private,4.2597379213989655,105000.0,3.0
+Government Medical College Chandrapur,Medical,MBBS,Maharashtra,Chandrapur,Government,69.75,120000.0,4.5
+Chandrapur Private Medical Institute,Medical,MBBS,Maharashtra,Chandrapur,Private,63.75,900000.0,4.1
+Chandrapur Ayurvedic College,Medical,BAMS,Maharashtra,Chandrapur,Private,52.5,300000.0,3.8
+Chandrapur Government Law College,Law,LLB,Maharashtra,Chandrapur,Government,60.0,25000.0,4.2
+Chandrapur College of Law,Law,BA LLB,Maharashtra,Chandrapur,Private,48.75,75000.0,3.8
+Chandrapur City College of Commerce,Commerce,B.Com,Maharashtra,Chandrapur,Private,56.25,35000.0,4.0
+Chandrapur Institute of Management,Commerce,BBA,Maharashtra,Chandrapur,Private,52.5,120000.0,4.2
+Chandrapur Arts & Science College,Arts,BA English,Maharashtra,Chandrapur,Government,45.0,15000.0,3.9
+Chandrapur Science Institute,Science,BSc Computer Science,Maharashtra,Chandrapur,Private,48.75,50000.0,3.9
+Government College of Engineering Wardha,Engineering,CSE,Maharashtra,Wardha,Government,64.39999999999999,85000.0,4.2
+Government College of Engineering Wardha,Engineering,Mechanical,Maharashtra,Wardha,Government,59.49999999999999,85000.0,4.0
+Wardha Institute of Technology (Tier 1),Engineering,CSE,Maharashtra,Wardha,Private,53.51601339140373,110000.0,4.2
+Wardha Institute of Technology (Tier 1),Engineering,ECE,Maharashtra,Wardha,Private,48.51601339140373,110000.0,4.2
+Wardha Institute of Technology (Tier 1),Engineering,Civil,Maharashtra,Wardha,Private,38.51601339140373,110000.0,4.2
+Wardha Institute of Technology (Tier 2),Engineering,CSE,Maharashtra,Wardha,Private,42.588788402756215,120000.0,3.9
+Wardha Institute of Technology (Tier 2),Engineering,ECE,Maharashtra,Wardha,Private,37.588788402756215,120000.0,3.9
+Wardha Institute of Technology (Tier 2),Engineering,Civil,Maharashtra,Wardha,Private,27.58878840275621,120000.0,3.9
+Wardha Institute of Technology (Tier 3),Engineering,CSE,Maharashtra,Wardha,Private,33.39065994975313,95000.0,3.6
+Wardha Institute of Technology (Tier 3),Engineering,ECE,Maharashtra,Wardha,Private,28.39065994975313,95000.0,3.6
+Wardha Institute of Technology (Tier 3),Engineering,Civil,Maharashtra,Wardha,Private,18.39065994975313,95000.0,3.6
+Wardha Institute of Technology (Tier 4),Engineering,CSE,Maharashtra,Wardha,Private,31.43220607272803,100000.0,3.3
+Wardha Institute of Technology (Tier 4),Engineering,ECE,Maharashtra,Wardha,Private,26.43220607272803,100000.0,3.3
+Wardha Institute of Technology (Tier 4),Engineering,Civil,Maharashtra,Wardha,Private,16.43220607272803,100000.0,3.3
+Wardha Institute of Technology (Tier 5),Engineering,CSE,Maharashtra,Wardha,Private,23.77422993454941,105000.0,3.0
+Wardha Institute of Technology (Tier 5),Engineering,ECE,Maharashtra,Wardha,Private,18.77422993454941,105000.0,3.0
+Wardha Institute of Technology (Tier 5),Engineering,Civil,Maharashtra,Wardha,Private,8.77422993454941,105000.0,3.0
+Government Medical College Wardha,Medical,MBBS,Maharashtra,Wardha,Government,65.1,120000.0,4.5
+Wardha Private Medical Institute,Medical,MBBS,Maharashtra,Wardha,Private,59.49999999999999,900000.0,4.1
+Wardha Ayurvedic College,Medical,BAMS,Maharashtra,Wardha,Private,49.0,300000.0,3.8
+Wardha Government Law College,Law,LLB,Maharashtra,Wardha,Government,56.0,25000.0,4.2
+Wardha College of Law,Law,BA LLB,Maharashtra,Wardha,Private,45.5,75000.0,3.8
+Wardha City College of Commerce,Commerce,B.Com,Maharashtra,Wardha,Private,52.5,35000.0,4.0
+Wardha Institute of Management,Commerce,BBA,Maharashtra,Wardha,Private,49.0,120000.0,4.2
+Wardha Arts & Science College,Arts,BA English,Maharashtra,Wardha,Government,42.0,15000.0,3.9
+Wardha Science Institute,Science,BSc Computer Science,Maharashtra,Wardha,Private,45.5,50000.0,3.9
+Government College of Engineering Gondia,Engineering,CSE,Maharashtra,Gondia,Government,59.8,85000.0,4.2
+Government College of Engineering Gondia,Engineering,Mechanical,Maharashtra,Gondia,Government,55.25,85000.0,4.0
+Gondia Institute of Technology (Tier 1),Engineering,CSE,Maharashtra,Gondia,Private,48.380955513430365,110000.0,4.2
+Gondia Institute of Technology (Tier 1),Engineering,ECE,Maharashtra,Gondia,Private,43.380955513430365,110000.0,4.2
+Gondia Institute of Technology (Tier 1),Engineering,Civil,Maharashtra,Gondia,Private,33.380955513430365,110000.0,4.2
+Gondia Institute of Technology (Tier 2),Engineering,CSE,Maharashtra,Gondia,Private,41.655629393081824,120000.0,3.9
+Gondia Institute of Technology (Tier 2),Engineering,ECE,Maharashtra,Gondia,Private,36.655629393081824,120000.0,3.9
+Gondia Institute of Technology (Tier 2),Engineering,Civil,Maharashtra,Gondia,Private,26.655629393081824,120000.0,3.9
+Gondia Institute of Technology (Tier 3),Engineering,CSE,Maharashtra,Gondia,Private,33.092074851114475,95000.0,3.6
+Gondia Institute of Technology (Tier 3),Engineering,ECE,Maharashtra,Gondia,Private,28.092074851114475,95000.0,3.6
+Gondia Institute of Technology (Tier 3),Engineering,Civil,Maharashtra,Gondia,Private,18.092074851114475,95000.0,3.6
+Gondia Institute of Technology (Tier 4),Engineering,CSE,Maharashtra,Gondia,Private,22.63134026191872,100000.0,3.3
+Gondia Institute of Technology (Tier 4),Engineering,ECE,Maharashtra,Gondia,Private,17.63134026191872,100000.0,3.3
+Gondia Institute of Technology (Tier 4),Engineering,Civil,Maharashtra,Gondia,Private,7.631340261918719,100000.0,3.3
+Gondia Institute of Technology (Tier 5),Engineering,CSE,Maharashtra,Gondia,Private,23.37306968842752,105000.0,3.0
+Gondia Institute of Technology (Tier 5),Engineering,ECE,Maharashtra,Gondia,Private,18.37306968842752,105000.0,3.0
+Gondia Institute of Technology (Tier 5),Engineering,Civil,Maharashtra,Gondia,Private,8.37306968842752,105000.0,3.0
+Government Medical College Gondia,Medical,MBBS,Maharashtra,Gondia,Government,60.45,120000.0,4.5
+Gondia Private Medical Institute,Medical,MBBS,Maharashtra,Gondia,Private,55.25,900000.0,4.1
+Gondia Ayurvedic College,Medical,BAMS,Maharashtra,Gondia,Private,45.5,300000.0,3.8
+Gondia Government Law College,Law,LLB,Maharashtra,Gondia,Government,52.0,25000.0,4.2
+Gondia College of Law,Law,BA LLB,Maharashtra,Gondia,Private,42.25,75000.0,3.8
+Gondia City College of Commerce,Commerce,B.Com,Maharashtra,Gondia,Private,48.75,35000.0,4.0
+Gondia Institute of Management,Commerce,BBA,Maharashtra,Gondia,Private,45.5,120000.0,4.2
+Gondia Arts & Science College,Arts,BA English,Maharashtra,Gondia,Government,39.0,15000.0,3.9
+Gondia Science Institute,Science,BSc Computer Science,Maharashtra,Gondia,Private,42.25,50000.0,3.9
+BITS Goa,Engineering,CSE,Goa,Goa,Private,98.0,550000.0,4.8
+BITS Goa,Engineering,ECE,Goa,Goa,Private,96.0,550000.0,4.6
+BITS Hyderabad,Engineering,CSE,Telangana,Hyderabad,Private,97.5,550000.0,4.8
+BITS Hyderabad,Engineering,ECE,Telangana,Hyderabad,Private,95.5,550000.0,4.6
+VIT Vellore,Engineering,ECE,Tamil Nadu,Vellore,Private,94.0,250000.0,4.3
+VIT Chennai,Engineering,CSE,Tamil Nadu,Chennai,Private,95.0,250000.0,4.5
+VIT Chennai,Engineering,ECE,Tamil Nadu,Chennai,Private,92.0,250000.0,4.3
+VIT AP,Engineering,CSE,Andhra Pradesh,Amaravati,Private,90.0,250000.0,4.5
+VIT AP,Engineering,ECE,Andhra Pradesh,Amaravati,Private,87.0,250000.0,4.3
+SRM KTR,Engineering,CSE,Tamil Nadu,Chennai,Private,92.0,250000.0,4.2
+SRM Ramapuram,Engineering,CSE,Tamil Nadu,Chennai,Private,88.0,250000.0,4.2
+Government College of Pharmacy Mumbai,Medical,B.Pharm,Maharashtra,Mumbai,Government,95.0,40000.0,4.5
+Mumbai Institute of Pharmacy,Science,B.Pharm,Maharashtra,Mumbai,Private,82.0,120000.0,4.0
+Mumbai College of Computer Applications,Science,BCA,Maharashtra,Mumbai,Private,75.0,60000.0,4.1
+Mumbai Science Institute,Science,BSc,Maharashtra,Mumbai,Government,80.0,15000.0,4.3
+Mumbai Dental College,Medical,BDS,Maharashtra,Mumbai,Private,85.0,400000.0,4.2
+Government College of Pharmacy Pune,Medical,B.Pharm,Maharashtra,Pune,Government,93.1,40000.0,4.5
+Pune Institute of Pharmacy,Science,B.Pharm,Maharashtra,Pune,Private,80.36,120000.0,4.0
+Pune College of Computer Applications,Science,BCA,Maharashtra,Pune,Private,73.5,60000.0,4.1
+Pune Science Institute,Science,BSc,Maharashtra,Pune,Government,78.4,15000.0,4.3
+Pune Dental College,Medical,BDS,Maharashtra,Pune,Private,83.3,400000.0,4.2
+Government College of Pharmacy Nagpur,Medical,B.Pharm,Maharashtra,Nagpur,Government,90.25,40000.0,4.5
+Nagpur Institute of Pharmacy,Science,B.Pharm,Maharashtra,Nagpur,Private,77.89999999999999,120000.0,4.0
+Nagpur College of Computer Applications,Science,BCA,Maharashtra,Nagpur,Private,71.25,60000.0,4.1
+Nagpur Science Institute,Science,BSc,Maharashtra,Nagpur,Government,76.0,15000.0,4.3
+Nagpur Dental College,Medical,BDS,Maharashtra,Nagpur,Private,80.75,400000.0,4.2
+Government College of Pharmacy Nashik,Medical,B.Pharm,Maharashtra,Nashik,Government,87.4,40000.0,4.5
+Nashik Institute of Pharmacy,Science,B.Pharm,Maharashtra,Nashik,Private,75.44,120000.0,4.0
+Nashik College of Computer Applications,Science,BCA,Maharashtra,Nashik,Private,69.0,60000.0,4.1
+Nashik Science Institute,Science,BSc,Maharashtra,Nashik,Government,73.60000000000001,15000.0,4.3
+Nashik Dental College,Medical,BDS,Maharashtra,Nashik,Private,78.2,400000.0,4.2
+Government College of Pharmacy Aurangabad,Medical,B.Pharm,Maharashtra,Aurangabad,Government,85.5,40000.0,4.5
+Aurangabad Institute of Pharmacy,Science,B.Pharm,Maharashtra,Aurangabad,Private,73.8,120000.0,4.0
+Aurangabad College of Computer Applications,Science,BCA,Maharashtra,Aurangabad,Private,67.5,60000.0,4.1
+Aurangabad Science Institute,Science,BSc,Maharashtra,Aurangabad,Government,72.0,15000.0,4.3
+Aurangabad Dental College,Medical,BDS,Maharashtra,Aurangabad,Private,76.5,400000.0,4.2
+Government College of Pharmacy Amravati,Medical,B.Pharm,Maharashtra,Amravati,Government,83.6,40000.0,4.5
+Amravati Institute of Pharmacy,Science,B.Pharm,Maharashtra,Amravati,Private,72.16,120000.0,4.0
+Amravati College of Computer Applications,Science,BCA,Maharashtra,Amravati,Private,66.0,60000.0,4.1
+Amravati Science Institute,Science,BSc,Maharashtra,Amravati,Government,70.4,15000.0,4.3
+Amravati Dental College,Medical,BDS,Maharashtra,Amravati,Private,74.8,400000.0,4.2
+Government College of Pharmacy Kolhapur,Medical,B.Pharm,Maharashtra,Kolhapur,Government,83.6,40000.0,4.5
+Kolhapur Institute of Pharmacy,Science,B.Pharm,Maharashtra,Kolhapur,Private,72.16,120000.0,4.0
+Kolhapur College of Computer Applications,Science,BCA,Maharashtra,Kolhapur,Private,66.0,60000.0,4.1
+Kolhapur Science Institute,Science,BSc,Maharashtra,Kolhapur,Government,70.4,15000.0,4.3
+Kolhapur Dental College,Medical,BDS,Maharashtra,Kolhapur,Private,74.8,400000.0,4.2
+Government College of Pharmacy Solapur,Medical,B.Pharm,Maharashtra,Solapur,Government,80.75,40000.0,4.5
+Solapur Institute of Pharmacy,Science,B.Pharm,Maharashtra,Solapur,Private,69.7,120000.0,4.0
+Solapur College of Computer Applications,Science,BCA,Maharashtra,Solapur,Private,63.75,60000.0,4.1
+Solapur Science Institute,Science,BSc,Maharashtra,Solapur,Government,68.0,15000.0,4.3
+Solapur Dental College,Medical,BDS,Maharashtra,Solapur,Private,72.25,400000.0,4.2
+Government College of Pharmacy Jalgaon,Medical,B.Pharm,Maharashtra,Jalgaon,Government,80.75,40000.0,4.5
+Jalgaon Institute of Pharmacy,Science,B.Pharm,Maharashtra,Jalgaon,Private,69.7,120000.0,4.0
+Jalgaon College of Computer Applications,Science,BCA,Maharashtra,Jalgaon,Private,63.75,60000.0,4.1
+Jalgaon Science Institute,Science,BSc,Maharashtra,Jalgaon,Government,68.0,15000.0,4.3
+Jalgaon Dental College,Medical,BDS,Maharashtra,Jalgaon,Private,72.25,400000.0,4.2
+Government College of Pharmacy Nanded,Medical,B.Pharm,Maharashtra,Nanded,Government,79.8,40000.0,4.5
+Nanded Institute of Pharmacy,Science,B.Pharm,Maharashtra,Nanded,Private,68.88,120000.0,4.0
+Nanded College of Computer Applications,Science,BCA,Maharashtra,Nanded,Private,63.0,60000.0,4.1
+Nanded Science Institute,Science,BSc,Maharashtra,Nanded,Government,67.2,15000.0,4.3
+Nanded Dental College,Medical,BDS,Maharashtra,Nanded,Private,71.39999999999999,400000.0,4.2
+Government College of Pharmacy Latur,Medical,B.Pharm,Maharashtra,Latur,Government,77.89999999999999,40000.0,4.5
+Latur Institute of Pharmacy,Science,B.Pharm,Maharashtra,Latur,Private,67.24,120000.0,4.0
+Latur College of Computer Applications,Science,BCA,Maharashtra,Latur,Private,61.49999999999999,60000.0,4.1
+Latur Science Institute,Science,BSc,Maharashtra,Latur,Government,65.6,15000.0,4.3
+Latur Dental College,Medical,BDS,Maharashtra,Latur,Private,69.7,400000.0,4.2
+Government College of Pharmacy Akola,Medical,B.Pharm,Maharashtra,Akola,Government,76.0,40000.0,4.5
+Akola Institute of Pharmacy,Science,B.Pharm,Maharashtra,Akola,Private,65.60000000000001,120000.0,4.0
+Akola College of Computer Applications,Science,BCA,Maharashtra,Akola,Private,60.0,60000.0,4.1
+Akola Science Institute,Science,BSc,Maharashtra,Akola,Government,64.0,15000.0,4.3
+Akola Dental College,Medical,BDS,Maharashtra,Akola,Private,68.0,400000.0,4.2
+Government College of Pharmacy Dhule,Medical,B.Pharm,Maharashtra,Dhule,Government,74.10000000000001,40000.0,4.5
+Dhule Institute of Pharmacy,Science,B.Pharm,Maharashtra,Dhule,Private,63.96,120000.0,4.0
+Dhule College of Computer Applications,Science,BCA,Maharashtra,Dhule,Private,58.5,60000.0,4.1
+Dhule Science Institute,Science,BSc,Maharashtra,Dhule,Government,62.400000000000006,15000.0,4.3
+Dhule Dental College,Medical,BDS,Maharashtra,Dhule,Private,66.3,400000.0,4.2
+Government College of Pharmacy Ahmednagar,Medical,B.Pharm,Maharashtra,Ahmednagar,Government,76.0,40000.0,4.5
+Ahmednagar Institute of Pharmacy,Science,B.Pharm,Maharashtra,Ahmednagar,Private,65.60000000000001,120000.0,4.0
+Ahmednagar College of Computer Applications,Science,BCA,Maharashtra,Ahmednagar,Private,60.0,60000.0,4.1
+Ahmednagar Science Institute,Science,BSc,Maharashtra,Ahmednagar,Government,64.0,15000.0,4.3
+Ahmednagar Dental College,Medical,BDS,Maharashtra,Ahmednagar,Private,68.0,400000.0,4.2
+Government College of Pharmacy Satara,Medical,B.Pharm,Maharashtra,Satara,Government,77.89999999999999,40000.0,4.5
+Satara Institute of Pharmacy,Science,B.Pharm,Maharashtra,Satara,Private,67.24,120000.0,4.0
+Satara College of Computer Applications,Science,BCA,Maharashtra,Satara,Private,61.49999999999999,60000.0,4.1
+Satara Science Institute,Science,BSc,Maharashtra,Satara,Government,65.6,15000.0,4.3
+Satara Dental College,Medical,BDS,Maharashtra,Satara,Private,69.7,400000.0,4.2
+IISc Bangalore,Engineering,Mathematics & Computing,Karnataka,Bangalore,Government,99.9,200000.0,5.0
+IISc Bangalore,Science,BS Research,Karnataka,Bangalore,Government,99.8,35000.0,5.0
+IISER Pune,Science,BS-MS Dual Degree,Maharashtra,Pune,Government,98.5,80000.0,4.8
+IISER Kolkata,Science,BS-MS Dual Degree,West Bengal,Kolkata,Government,98.0,80000.0,4.7
+IISER Mohali,Science,BS-MS Dual Degree,Punjab,Mohali,Government,97.5,80000.0,4.6
+IISER Bhopal,Science,BS-MS Dual Degree,Madhya Pradesh,Bhopal,Government,97.0,80000.0,4.6
+IISER Thiruvananthapuram,Science,BS-MS Dual Degree,Kerala,Trivandrum,Government,96.5,80000.0,4.5
