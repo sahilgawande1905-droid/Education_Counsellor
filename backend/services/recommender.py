@@ -66,8 +66,7 @@ Database Matches:
 
 Your task:
 Format 5-7 highly accurate colleges into a JSON array. 
-CRITICAL EXAM RULE: You MUST cross-check the 'Exam Taken' against the college. (e.g., IITs/NITs ONLY accept JEE, they DO NOT accept MHT-CET, State CETs, or 12th %). 
-If a database match does not accept the student's exam, DISCARD IT, and intelligently generate a replacement college that DOES accept their exam.
+CRITICAL EXAM RULE: If a database match conventionally requires a different exam, DO NOT DISCARD IT completely if your list becomes empty. Instead, adapt it or swap it intelligently with an equivalent college (like an NIT or IIIT) that DOES accept their exam. Always ensure you return at least 4-5 valid colleges!
 
 CRITICAL MATH RULE: Percentiles and percentages CANNOT exceed 100.0. When calculating the `target_2027_score`, if the historical cutoff is extremely high (e.g., 99.8), do NOT just add a flat buffer that pushes it over 100. Cap your target score at a maximum of 99.99%.
 

@@ -134,7 +134,7 @@ def get_colleges_from_db(stream: str, marks: float, exam_type: str = "", categor
         "MHT-CET": {"banned_keywords": ["IIT ", "NIT ", "IIIT ", "AIIMS ", "NLU ", "National Law"]},
         "STATE CET": {"banned_keywords": ["IIT ", "NIT ", "IIIT ", "AIIMS ", "NLU ", "National Law"]},
         "12TH": {"banned_keywords": ["IIT ", "NIT ", "IIIT ", "AIIMS ", "NLU ", "National Law"]},
-        "JEE MAIN": {"allowed_streams": ["Engineering", "Science"], "banned_keywords": ["IIT ", "IISc "]},
+        "JEE MAIN": {"allowed_streams": ["Engineering", "Science"], "banned_keywords": ["IIT ", "IISc ", "COEP", "VJTI", "SPIT", "PICT", "Government College of Engineering", "Government Medical"]},
         "JEE ADVANCED": {"allowed_streams": ["Engineering", "Science"], "required_keywords": ["IIT ", "IISc "]},
         "NEET": {"allowed_streams": ["Medical"], "banned_keywords": ["IIT "]},
         "BITSAT": {"required_keywords": ["BITS "]},
