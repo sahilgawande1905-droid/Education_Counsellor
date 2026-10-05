@@ -186,17 +186,12 @@ export default function CollegeCard({ college, onAskAI, isCompact = false }) {
         )}
 
         {/* Agentic AI Strategies */}
-        {(college.cap_strategy || college.target_2027_score || college.financial_aid) && (
+        {(college.cap_strategy || college.financial_aid) && (
           <div className="mb-2">
-            {college.target_2027_score && (
-              <div className="d-flex justify-content-between align-items-center p-2 rounded mb-1" style={{ background: "#E8EAF6", border: "1px solid #C5CAE9" }}>
-                <span className="small fw-semibold" style={{ color: "#283593" }}>🎯 2027 Safe Target</span>
-                <span className="badge bg-primary shadow-sm" style={{ fontSize: 12 }}>{college.target_2027_score}</span>
-              </div>
-            )}
             {college.cap_strategy && (
-              <div className="p-2 rounded mb-1" style={{ background: "#F3E5F5", borderLeft: "3px solid #8E24AA", fontSize: 11, color: "#4A148C" }}>
-                <strong>📋 CAP Strategy:</strong> {college.cap_strategy}
+              <div className="p-2 rounded mb-1" style={{ background: "#F3E5F5", borderLeft: "3px solid #8E24AA", fontSize: 11, color: "#4A148C", whiteSpace: "pre-line" }}>
+                <strong>📋 5-Step Admission Roadmap:</strong><br />
+                {college.cap_strategy}
               </div>
             )}
             {college.financial_aid && (

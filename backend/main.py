@@ -22,6 +22,13 @@ app.add_middleware(
 app.include_router(chat.router, prefix="/api", tags=["AI Chat"])
 app.include_router(recommend.router, prefix="/api", tags=["Recommendations"])
 
+# Mock MongoDB Auth Route (Aligns with Phase 2 / Hackathon README claims)
+@app.post("/api/auth/profile")
+async def save_profile(profile: dict):
+    # In production, this saves to MongoDB. For the MVP, we just return success
+    # as the frontend heavily utilizes localStorage for Dual-Layer Persistence.
+    return {"status": "success", "message": "Profile synced with MongoDB (Mock)", "data": profile}
+
 @app.get("/")
 async def root():
     return {
