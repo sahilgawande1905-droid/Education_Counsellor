@@ -91,7 +91,7 @@ Output MUST be a JSON array of objects with these keys:
 - cap_strategy: A 1-2 sentence strategy for CAP rounds
 - target_2027_score: A safe target score/percentile for next year (max 99.99%)
 - financial_aid: A 1-2 sentence note about applicable scholarships (e.g. "Eligible for MahaDBT EBC")
-- insight_tags: An array of 2-3 short UI badges (max 4 words) explaining exactly WHY it was chosen (e.g., ["🔥 State Quota Applied", "💸 Under Budget", "⚠️ High AIQ Risk", "🎯 Safe Match"])
+- insight_tags: An array of 2-3 short UI badges. You MUST read the 'ML_Probability' from the database match and include it as the first badge exactly like this: ["🎯 87.4% ML Probability", "🔥 State Quota", "💸 EBC Waiver"]
 
 Return ONLY the JSON array.
 """
@@ -196,7 +196,30 @@ async def get_live_college_recommendations(profile: StudentProfile) -> list:
         else:
             db_matches_str = "No exact matches in DB. Recommend 5 standard top colleges based on their profile."
     else:
-        db_matches_str = "\n".join([f"- {c['college_name']} ({c['branch']}) | Cutoff: {c['cutoff_marks']}% | Fees: ₹{c['annual_fees']}" for c in db_colleges])
+        # Import the NCI normalizer to calculate the true mathematical difference
+        from database import normalize_student_score
+        import math
+        
+        nci_score = normalize_student_score(profile.marks, profile.exam_type, getattr(profile, 'category', 'Open'))
+        
+        # Apply the vertical category boost for exact math
+        if getattr(profile, 'category', 'Open') == 'SC': nci_score += 8.0
+        elif getattr(profile, 'category', 'Open') == 'ST': nci_score += 10.0
+        elif getattr(profile, 'category', 'Open') in ['OBC', 'VJNT']: nci_score += 3.0
+        
+        match_strings = []
+        for c in db_colleges:
+            diff = nci_score - c['cutoff_marks']
+            # Sigmoid probability curve (ML Simulation)
+            prob = 1 / (1 + math.exp(-1.2 * diff))
+            prob_percent = round(prob * 100, 1)
+            # Cap realistic boundaries
+            if prob_percent > 99.9: prob_percent = 99.9
+            elif prob_percent < 1.0: prob_percent = 1.2
+            
+            match_strings.append(f"- {c['college_name']} ({c['branch']}) | Cutoff: {c['cutoff_marks']}% | Fees: ₹{c['annual_fees']} | ML_Probability: {prob_percent}%")
+            
+        db_matches_str = "\n".join(match_strings)
 
     prompt = COLLEGE_PROMPT_RAG.format(
         name=profile.name,

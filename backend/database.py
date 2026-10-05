@@ -137,68 +137,25 @@ def get_colleges_from_db(stream: str, marks: float, exam_type: str = "", categor
         conditions.append("branch LIKE ?")
         query_params.append(f"%{preferred_branch}%")
         
-    # =========================================================================
-    # EXAM ROUTING ENGINE (Rule-based configuration)
-    # Follows Open/Closed Principle: Add new exams here without touching SQL logic
-    # =========================================================================
-    EXAM_RULES = {
-        "MHT-CET": {"banned_keywords": ["IIT ", "NIT ", "IIIT ", "AIIMS ", "NLU ", "National Law"]},
-        "STATE CET": {"banned_keywords": ["IIT ", "NIT ", "IIIT ", "AIIMS ", "NLU ", "National Law"]},
-        "12TH": {"banned_keywords": ["IIT ", "NIT ", "IIIT ", "AIIMS ", "NLU ", "National Law"]},
-        "JEE MAIN": {"allowed_streams": ["Engineering", "Science"], "banned_keywords": ["IIT ", "IISc ", "COEP", "VJTI", "SPIT", "PICT", "Government College of Engineering", "Government Medical"]},
-        "JEE ADVANCED": {"allowed_streams": ["Engineering", "Science"], "required_keywords": ["IIT ", "IISc "]},
-        "NEET": {"allowed_streams": ["Medical"], "banned_keywords": ["IIT "]},
-        "BITSAT": {"required_keywords": ["BITS "]},
-        "VITEEE": {"required_keywords": ["VIT Vellore", "VIT Chennai", "VIT AP", "VIT Bhopal"]},
-        "SRMJEEE": {"required_keywords": ["SRM "]},
-        "PCB": {"allowed_branches": ["B.Pharm", "BSc", "BAMS", "BDS", "MBBS"]}
-    }
-
     ex_upper = (exam_type or "").upper()
     
-    # -------------------------------------------------------------------------
-    # GLOBAL EXCLUSIVITY RULES
-    # Institutes that strictly accept ONLY their own proprietary exam
-    # -------------------------------------------------------------------------
-    if "BITSAT" not in ex_upper:
-        conditions.append("college_name NOT LIKE '%BITS %'")
-    if "VIT" not in ex_upper:
-        conditions.append("college_name NOT LIKE '%VIT %'")
-    if "SRM" not in ex_upper:
-        conditions.append("college_name NOT LIKE '%SRM %'")
-    if "CLAT" not in ex_upper and "LSAT" not in ex_upper:
-        conditions.append("college_name NOT LIKE '%NLU %'")
-        conditions.append("college_name NOT LIKE '%National Law%'")
-    if "NEET" not in ex_upper:
-        conditions.append("college_name NOT LIKE '%AIIMS %'")
-    if "JEE" not in ex_upper:
-        conditions.append("college_name NOT LIKE '%IIT %'")
-        conditions.append("college_name NOT LIKE '%NIT %'")
-        conditions.append("college_name NOT LIKE '%IIIT %'")
+    # =========================================================================
+    # ENTERPRISE SCHEMA VALIDATION (Array-like matching)
+    # The database now inherently knows which exams it accepts!
+    # =========================================================================
+    # Because 'JEE MAINS' vs 'JEE MAIN' might happen, let's normalize the string
+    if "JEE MAIN" in ex_upper or "JEE MAINS" in ex_upper:
+        search_exam = "JEE MAIN"
+    elif "MHT-CET" in ex_upper or "MHTCET" in ex_upper:
+        search_exam = "MHT-CET"
+    else:
+        search_exam = ex_upper
 
-    # Apply rules dynamically
-    for exam_key, rules in EXAM_RULES.items():
-        if exam_key in ex_upper:
-            # 1. Apply Banned Keywords
-            if "banned_keywords" in rules:
-                for word in rules["banned_keywords"]:
-                    conditions.append(f"college_name NOT LIKE '%{word}%'")
-            
-            # 2. Apply Required Keywords (OR logic)
-            if "required_keywords" in rules:
-                reqs = [f"college_name LIKE '%{word}%'" for word in rules["required_keywords"]]
-                conditions.append(f"({' OR '.join(reqs)})")
-                
-            # 3. Apply Allowed Streams
-            if "allowed_streams" in rules:
-                streams_formatted = ", ".join([f"'{s}'" for s in rules["allowed_streams"]])
-                conditions.append(f"stream IN ({streams_formatted})")
-                
-            # 4. Apply Allowed Branches
-            if "allowed_branches" in rules:
-                branches_formatted = ", ".join([f"'{b}'" for b in rules["allowed_branches"]])
-                conditions.append(f"branch IN ({branches_formatted})")
-                
+    # Add the single source of truth exam filter
+    if search_exam:
+        conditions.append("accepted_exams LIKE ?")
+        query_params.append(f"%{search_exam}%")
+
     where_clause = " AND ".join(conditions)
         
     if preferred_state and preferred_state != "Any":
