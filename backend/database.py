@@ -109,17 +109,28 @@ def get_colleges_from_db(stream: str, marks: float, exam_type: str = "", categor
     cursor = conn.cursor()
     
     # =========================================================================
+    # DYNAMIC SEARCH BUFFER (The 99% Reality Check)
+    # =========================================================================
+    # A flat +5.0 buffer is too generous for top percentiles. 
+    # A 5% drop is impossible at COEP/VJTI, but normal for Tier-3 colleges.
+    if nci_score >= 98.0:
+        sql_buffer = 0.5   # Top tier cutoffs barely move
+    elif nci_score >= 95.0:
+        sql_buffer = 1.5   # Slight fluctuation possible
+    elif nci_score >= 90.0:
+        sql_buffer = 3.0
+    else:
+        sql_buffer = 5.0   # High variance in lower tiers
+
+    # =========================================================================
     # DYNAMIC QUOTA SIMULATOR (HS vs OS / AIQ)
     # =========================================================================
     if preferred_state and preferred_state != "Any":
-        # Simulate Home State (85%) vs Other State (15% AIQ) Quota
-        # If the college is in their Home State, they get a generous +3.0 buffer.
-        # If the college is Out of State, they get a strict -2.0 penalty to simulate harsh AIQ cutoffs.
         conditions = ["stream = ?", "cutoff_marks <= (? + CASE WHEN state = ? THEN 3.0 ELSE -2.0 END)", "annual_fees <= ?"]
-        query_params = [stream, nci_score + 5.0, preferred_state, max_fee]
+        query_params = [stream, nci_score + sql_buffer, preferred_state, max_fee]
     else:
         conditions = ["stream = ?", "cutoff_marks <= ?", "annual_fees <= ?"]
-        query_params = [stream, nci_score + 5.0, max_fee]
+        query_params = [stream, nci_score + sql_buffer, max_fee]
         
     # Branch Filter
     if preferred_branch and preferred_branch != "Any":
@@ -145,6 +156,26 @@ def get_colleges_from_db(stream: str, marks: float, exam_type: str = "", categor
 
     ex_upper = (exam_type or "").upper()
     
+    # -------------------------------------------------------------------------
+    # GLOBAL EXCLUSIVITY RULES
+    # Institutes that strictly accept ONLY their own proprietary exam
+    # -------------------------------------------------------------------------
+    if "BITSAT" not in ex_upper:
+        conditions.append("college_name NOT LIKE '%BITS %'")
+    if "VIT" not in ex_upper:
+        conditions.append("college_name NOT LIKE '%VIT %'")
+    if "SRM" not in ex_upper:
+        conditions.append("college_name NOT LIKE '%SRM %'")
+    if "CLAT" not in ex_upper and "LSAT" not in ex_upper:
+        conditions.append("college_name NOT LIKE '%NLU %'")
+        conditions.append("college_name NOT LIKE '%National Law%'")
+    if "NEET" not in ex_upper:
+        conditions.append("college_name NOT LIKE '%AIIMS %'")
+    if "JEE" not in ex_upper:
+        conditions.append("college_name NOT LIKE '%IIT %'")
+        conditions.append("college_name NOT LIKE '%NIT %'")
+        conditions.append("college_name NOT LIKE '%IIIT %'")
+
     # Apply rules dynamically
     for exam_key, rules in EXAM_RULES.items():
         if exam_key in ex_upper:
